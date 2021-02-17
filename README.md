@@ -13,8 +13,12 @@ A curated list of repositories related to fluid dynamics.
 
 - [Awesome Fluid Dynamics](#awesome-fluid-dynamics)
   - [1. Computational fluid dynamics (CFD)](#1-computational-fluid-dynamics-cfd)
+    - [Educational](#educational)
     - [Meshing](#meshing)
     - [Solvers](#solvers)
+      - [Finite element methods (FEM)](#finite-element-methods-fem)
+      - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
+      - [Spectral methods](#spectral-methods)
   - [2. Experimental fluid dynamics](#2-experimental-fluid-dynamics)
     - [PIV / PTV](#piv--ptv)
     - [Machine learning / AI](#machine-learning--ai)
@@ -32,9 +36,23 @@ A curated list of repositories related to fluid dynamics.
 
 ## 1. Computational fluid dynamics (CFD)
 
+### Educational
+- [barbagroup / CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![python] ![jupyter]
+
 ### Meshing
 
 ### Solvers
+
+#### Finite element methods (FEM)
+
+#### Finite volume methods (FVM)
+- [OpenFOAM / OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![cpp]
+
+#### Spectral methods
+
+- [DedalusProject / dedalus](https://github.com/DedalusProject/dedalus):  A flexible framework for solving PDEs with modern spectral methods. ![python]
+- [spectralDNS / shenfun](https://github.com/spectralDNS/shenfun): High performance computational platform in Python for the spectral Galerkin method ![python] ![jupyter]
+- [FourierFlows / FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl): Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia]
 
 ## 2. Experimental fluid dynamics 
 
@@ -85,6 +103,11 @@ A curated list of repositories related to fluid dynamics.
 - [alexlib / awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
 
 <!--- custom badges -->
+<!-- 
+[jupyter]: https://img.shields.io/badge/Jupyter%20-notebook-orange?logo=Jupyter -->
+
+
+[jupyter]: https://img.shields.io/badge/Jupyter-notebook-orange?logo=Jupyter
 
 [python]: https://img.shields.io/badge/Python-white.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V%2B0%2FAAACClBMVEUAAABAgL83erM4ebA2eK43d603dqs3dak2dKg3c6Q5erM4ebA3d643caI3ebA3ea0AgIA3dqs3cKA3d643d603d6s3cJ44dq42dqs2dKk2dKc2cqU2cqM2bpw2ebQ3ebA3eK43d603dqs3dqk3dKg3c6U3cqQ3caI2bZr%2F2Ev%2F2Ej%2F1kf%2F1EU3erE4ebA2bJn%2F2Uj%2F0kI3eLA2a5f%2F1kb%2F0T83eK42a5T%2F1UT%2Fzz83caI4b6A4b542bpw2bps2bJk2a5c1apX80kb%2F00Q3dqs3cqM3cKH%2F31H%2F3k%2F%2F3E7%2F3Ez%2F2Ur%2F10r%2F1kf%2F1UU4dak3caL%2F4FH%2Fyzo3c6c4b6D%2F3k7%2FyTk1c6U3cJ7%2F3E7%2Fyjn%2Fxzg3caM3b543bp3%2F20z%2F00T%2F0kL%2F0UH%2F0D%2F%2Fzj%2F%2FzTz%2Fyzr%2Fyjn%2Fxzj%2F2kv%2F00P%2F0EL%2F0ED%2Fzj7%2FzDz%2F2En%2Fzj7%2FzTz%2Fyzv%2F10f%2Fzj7%2FzDP%2Fyjz%2Fyjr%2F1Ub%2F1ET%2FzDv%2FyTf%2F1UL%2F0UH%2F0ED%2Fzj7%2FzTz%2FzDz%2Fyzn%2Fyjj%2Fv0A3d603dqs3dak3dKc3c6U3cqQ3caI3cKA3b542bpw3eK42bZr%2F1kf%2F1UX%2F00Q2bJn%2F0kI3cqM2a5f%2F0UD%2F0UH%2Fzz%2F%2Fzj3%2F1ET%2FzDz%2F3k%2F%2F3E7%2F20z%2F2Ur%2F2En%2F1Ub%2FzTz%2F10f%2Fzj7%2Fyzr%2F2Uv%2F0kP%2F0D%2F%2F00P%2F0ED%2F%2F%2F9ywrbbAAAAhXRSTlMABGu%2F6vn25bJUkOWrfs%2BDAu%2Fbz%2FbV4G6IiIiI%2BOA9uMzMzMzMzMz84HDu5ncu%2BeB4VaHRe73fda%2F00K6qqqqqoldQ%2FPX%2BVFiou7u7u7vU4b9r8KiOwLA%2Bi836N2Hugs3NzMzMzMzMskDNioiIiHjN0vDiyPsKb%2BJm%2FrmdQqXY7vHjuWkEM28rJQAAAO9JREFUGNNVkK1OA1EYROfcO5emWTYNxeMRhFoUmhB4AhDFoUhwJHVYFBgUCo0hQZUXQKAIkkcogrTkErJB7C4sI8%2FM95NBkkSrT0mSJUl9OAPg%2FEOSQm3ZFwCkTjLBKQDuQMMVnECvgWt0VKwDL95gvPhloccYbpwOO8wGgoMXAGXNok2I9htAedvuJJgjj4BpnQT2syG4gLJgD%2BB9mLOhf2dTzg1AHOZslqvo4OkcG4hVw%2B4TOnjYhZ2vWD22n10jSTreilV%2BBrj8a2kpVrnc3Lb%2FFVLlwWzlKVEP1sn0Opitfo9SU11tadIemUjSD%2Bs0MpPwiOyPAAAAAElFTkSuQmCC
 
