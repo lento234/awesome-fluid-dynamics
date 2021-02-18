@@ -23,11 +23,11 @@ A curated list of repositories related to fluid dynamics.
   - [2. Experimental fluid dynamics](#2-experimental-fluid-dynamics)
     - [2.1 PIV / PTV](#21-piv--ptv)
     - [2.2 Machine learning / AI](#22-machine-learning--ai)
-  - [3. Analysis](#3-analysis)
-  - [4. Visualization](#4-visualization)
-    - [4.1 2D plotting](#41-2d-plotting)
-    - [4.2 3D plotting](#42-3d-plotting)
-  - [5. Benchmarks and datasets](#5-benchmarks-and-datasets)
+  - [3. Visualization, analysis and post-processing](#3-visualization-analysis-and-post-processing)
+    - [3.1 2D plotting](#31-2d-plotting)
+    - [3.2 3D plotting](#32-3d-plotting)
+    - [3.3 Analysis](#33-analysis)
+  - [4. Benchmarks and datasets](#4-benchmarks-and-datasets)
     - [Dataset](#dataset)
     - [Benchmark](#benchmark)
   - [Related](#related)
@@ -46,10 +46,15 @@ A curated list of repositories related to fluid dynamics.
 - [PyMesh / PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![cpp] ![python]
 - [cnr-isti-vclab / meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![cpp]
 - [inducer / meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![cpp] ![python]
+- [Gmsh](https://gmsh.info/): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![cpp] ![python] ![julia]
+- [CGAL / cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![cpp]
 
 
 ### 1.3 Solvers
 #### Finite element methods (FEM)
+- [JuliaFEM / JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia] [![jupyter]](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
+- [FEniCS / dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![cpp] ![python] 
+- [deal.II](https://dealii.org/): An open source finite element library ![cpp]
 
 #### Finite volume methods (FVM)
 - [OpenFOAM / OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![cpp]
@@ -84,28 +89,29 @@ A curated list of repositories related to fluid dynamics.
 - [yongleex / PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![matlab] ![cpp]
 
 
-## 3. Analysis 
+## 3. Visualization, analysis and post-processing
 
-- [mathLab / PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![python] [![jupyter]](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
-
-
-## 4. Visualization
-
-### 4.1 2D plotting
+### 3.1 2D plotting
 
 - [matplotlib / matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![python]
 - [scikit-image / scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![python]
 
-### 4.2 3D plotting
+### 3.2 3D plotting
 
 - [K3D-tools / K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter): K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![python] ![javascript] [![jupyter]](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
 - [sciapp / gr](https://github.com/sciapp/gr): GR framework: a graphics library for visualisation applications ![cpp] ![python]
 - [QuantStack / ipygany](https://github.com/QuantStack/ipygany):  3-D Scientific Visualization in the Jupyter Notebook ![python] [![jupyter]](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
 - [InsightSoftwareConsortium / itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets):  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D ![python] ![javascript] [![jupyter]](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
 - [NVIDIA / ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![python] ![javascript] [![jupyter]](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
+- [Kitware / Vtk](https://gitlab.kitware.com/vtk/vtk): Visualization Toolkit ![cpp]
+- [Kitware / paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![python]
 
+### 3.3 Analysis
 
-## 5. Benchmarks and datasets
+- [numpy / numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![python]
+- [mathLab / PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![python] [![jupyter]](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
+
+## 4. Benchmarks and datasets
 
 ### Dataset
 
