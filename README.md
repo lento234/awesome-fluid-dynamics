@@ -38,86 +38,86 @@ A curated list of repositories related to fluid dynamics.
 ## 1. Computational fluid dynamics (CFD)
 
 ### 1.1 Educational
-- [barbagroup / CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![python] [![jupyter]](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
+- [barbagroup / CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
 
 ### 1.2 Meshing
-- [nschloe / optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![python]
-- [nschloe / pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![python]
-- [PyMesh / PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![cpp] ![python]
+- [nschloe / optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
+- [nschloe / pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![Python](logo/Python.svg)
+- [PyMesh / PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![cpp] ![Python](logo/Python.svg)
 - [cnr-isti-vclab / meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![cpp]
-- [inducer / meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![cpp] ![python]
-- [Gmsh](https://gmsh.info/): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![cpp] ![python] ![julia]
+- [inducer / meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![cpp] ![Python](logo/Python.svg)
+- [Gmsh](https://gmsh.info/): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![cpp] ![Python](logo/Python.svg) ![julia]
 - [CGAL / cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![cpp]
 
 
 ### 1.3 Solvers
 #### Finite element methods (FEM)
-- [JuliaFEM / JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia] [![jupyter]](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
-- [FEniCS / dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![cpp] ![python] 
+- [JuliaFEM / JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia] [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
+- [FEniCS / dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![cpp] ![Python](logo/Python.svg) 
 - [deal.II](https://dealii.org/): An open source finite element library ![cpp]
 
 #### Finite volume methods (FVM)
 - [OpenFOAM / OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![cpp]
-- [su2code / SU2](https://github.com/su2code/SU2): SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![cpp] ![python]
+- [su2code / SU2](https://github.com/su2code/SU2): SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![cpp] ![Python](logo/Python.svg)
 
 #### Spectral methods
 
-- [DedalusProject / dedalus](https://github.com/DedalusProject/dedalus):  A flexible framework for solving PDEs with modern spectral methods. ![python] [![jupyter]](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
+- [DedalusProject / dedalus](https://github.com/DedalusProject/dedalus):  A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
 - [FourierFlows / FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl): Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia]
 - [Nek5000 / Nek5000](https://github.com/Nek5000/Nek5000): NEK5000 is an spectral element CFD code developed at the Mathematics and Computer Science Division of Argonne National Laboratory. ![fortran]
-- [spectralDNS / shenfun](https://github.com/spectralDNS/shenfun): High performance computational platform in Python for the spectral Galerkin method ![python] [![jupyter]](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
+- [spectralDNS / shenfun](https://github.com/spectralDNS/shenfun): High performance computational platform in Python for the spectral Galerkin method ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
 
 #### Others
 
 - [aromanro / LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann): A 2D Lattice Boltzmann program ![cpp]
-- [jostbr / shallow-water](https://github.com/jostbr/shallow-water): Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![python]
+- [jostbr / shallow-water](https://github.com/jostbr/shallow-water): Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
 - [PavelDoGreat / WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation): Play with fluids in your browser (works even on mobile) ![javascript]
-- [PyFR / PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![python]
+- [PyFR / PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
 
 ## 2. Experimental fluid dynamics 
 
 ### 2.1 PIV / PTV
 
-- [JHU-NI-LAB / OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box): Open-source C++ code for Shake-the-box, particle tracking algorithm ![cpp] ![matlab]
+- [JHU-NI-LAB / OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box): Open-source C++ code for Shake-the-box, particle tracking algorithm ![cpp] ![MATLAB](logo/MATLAB.svg)
 - [OpenPTV / openptv](https://github.com/openptv/openptv) OpenPTV - open source 3D-PTV software ![cpp]
-- [OpenPIV / openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![python] [![jupyter]](https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
-- [OpenPTV / pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![python]
+- [OpenPIV / openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) (https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
+- [OpenPTV / pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![Python](logo/Python.svg)
 
 ### 2.2 Machine learning / AI
 
-- [erizmr / UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![python]
-- [shengzesnail / PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![cpp] ![python] ![matlab]
-- [yongleex / PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![matlab] ![cpp]
+- [erizmr / UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
+- [shengzesnail / PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![cpp] ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
+- [yongleex / PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![MATLAB](logo/MATLAB.svg) ![cpp]
 
 
 ## 3. Visualization, analysis and post-processing
 
 ### 3.1 2D plotting
 
-- [matplotlib / matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![python]
-- [scikit-image / scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![python]
+- [matplotlib / matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![Python](logo/Python.svg)
+- [scikit-image / scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![Python](logo/Python.svg)
 
 ### 3.2 3D plotting
 
-- [K3D-tools / K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter): K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![python] ![javascript] [![jupyter]](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
-- [sciapp / gr](https://github.com/sciapp/gr): GR framework: a graphics library for visualisation applications ![cpp] ![python]
-- [QuantStack / ipygany](https://github.com/QuantStack/ipygany):  3-D Scientific Visualization in the Jupyter Notebook ![python] [![jupyter]](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
-- [InsightSoftwareConsortium / itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets):  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D ![python] ![javascript] [![jupyter]](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
-- [NVIDIA / ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![python] ![javascript] [![jupyter]](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
+- [K3D-tools / K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter): K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![Python](logo/Python.svg) ![javascript] [![Jupyter](logo/Jupyter.svg)](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
+- [sciapp / gr](https://github.com/sciapp/gr): GR framework: a graphics library for visualisation applications ![cpp] ![Python](logo/Python.svg)
+- [QuantStack / ipygany](https://github.com/QuantStack/ipygany):  3-D Scientific Visualization in the Jupyter Notebook ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
+- [InsightSoftwareConsortium / itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets):  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D ![Python](logo/Python.svg) ![javascript] [![Jupyter](logo/Jupyter.svg)](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
+- [NVIDIA / ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![Python](logo/Python.svg) ![javascript] [![Jupyter](logo/Jupyter.svg)](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
 - [Kitware / Vtk](https://gitlab.kitware.com/vtk/vtk): Visualization Toolkit ![cpp]
-- [Kitware / paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![python]
+- [Kitware / paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 
 ### 3.3 Analysis
 
-- [numpy / numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![python]
-- [mathLab / PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![python] [![jupyter]](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
+- [numpy / numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
+- [mathLab / PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
 
 ## 4. Benchmarks and datasets
 
 ### Dataset
 
-- [shengzesnail / PIV_dataset](https://github.com/shengzesnail/PIV_dataset):  PIV dataset ![matlab]
-- [idies / pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library ![python] [![jupyter]](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
+- [shengzesnail / PIV_dataset](https://github.com/shengzesnail/PIV_dataset):  PIV dataset ![MATLAB](logo/MATLAB.svg)
+- [idies / pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
 
 ### Benchmark
 
@@ -141,9 +141,3 @@ A curated list of repositories related to fluid dynamics.
 [javascript]: https://img.shields.io/badge/JavaScript-white.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAMAAAAZbWmiAAABj1BMVEUAAADWujLbwkvYvTrYvjzTuDHZwEPWujHUuDHWujLWujHWujLXvDXWuzTWujLXuzXWujHXvDjWujLWujLWujLWujLWujHWujLWujLWujLWujLWujHWujLWujHVujTWujHWujLWujHWujHWujHWujHWujHWujLWujLWujLWujLVujHYvj3XuzTWujLWujL%2F%2F%2F%2F%2F2j7%2F%2Fvv%2F2kDVuTHs7vf%2F2DLVuS%2F%2F%2F%2F3j2KT40zHVtynr7O3%2F6ozp59vWujPXvDzr6%2Bn10jvUtyf31Dv%2F2Tb%2F2jv%2F8rr%2F5Xj%2F3D751T3dwDTs7fTUtiX%2F4WX%2F3Un82D3k2qvwzznXuzX%2F1y%2F%2F%2FO7%2F6IX%2F5nvcyWnaxFXryzjYvDLtyzDzzy7%2F99X%2F9cz%2F7qn%2B5HP%2F4GD%2F4Vr%2F31b%2F3ELXvkDmxjbhwjTavTPnxzLu8v%2F%2F%2FPP%2B%2BeT%2F9ML%2B8LL%2F5W%2Fdym%2F%2F4mf%2F42PZwlH%2F3k7%2F%2BuXq6eP%2B%2BN%2Fp6N%2Fo5dXo48%2F%2F7J3i1pzh1Zr%2F7Jfg0Yr%2B6Inezn%2F%2F6H3bxmH61DHAZCJOAAAALnRSTlMA%2FAIEjfwF%2Ff34meuLCHFWTT0zKiAR4NrQyb5fGAz98eW1qaGEfEhBOtSumGNoHFp97QAAA3FJREFUeNqN1QV78zYUBWA5XrDMzNxuV0lDxZDtMjMzfwxjhh%2B%2BI9%2BA%2B9SDU25ek3SkiP%2BfmrEv%2FjNjVYBfkkb%2FEY3KAYcoqP1HglQJWEsvEn0enLENsF574TaNrDNLAaoGbO9ymqj6trgQdmQBsAawopv89DxG2Jn1hyjVCWTECVNI1AiPlxJeP4oG64XwiBbH%2BERzudwUGVa8FGuRqKxBCF30OODW%2Fv77g4RxvTdfyN61oVFjhYJ9JZhIfxN72shNzsiI5CTlHyed1CyE8IlyJ5zNLE9MKZjkROS7Ey%2B1Cg%2FgAMMow%2BkYQ5mM2JEfj700KnRAx2Q7Yf7KkSvAEJhPVLnDszk7b9cevdQPpqMVfuKknPBqO24nfOelSkCPaoUb%2FGDmB%2FzeS202rA%2BS26VXzfGwHbsTOmBD2X%2FCYTCPqGgkzR2qcCfAkOao3w3Gzfj2dtxSnWgHxGdrYcSfw%2FHLi5nzs5nJFDrBcBTw5VN%2FvZOU%2BPHLZCc1%2BQSii5DbPUKpWZS76ESL8HArXGESDJ3YszvBsNIFAvFcv8NU9wrdvnSbG5Ty1ekcvqvyhPKwWsFUCeYmd1%2B%2FnfnwOb4WQXnsTjCsUSSXwLJiuLJ4Y8W3Tcu8TMpXnwErbegRdXC3%2B%2BlcLkF5GFbL8Ma8lHJnDZ2oYohWpKYOlmc33t%2BuJBjCYSGau1K%2BHsdUDzJEK1JTnzLTseXvNn6fzSgItXZx%2Fm0yKU8twFogFV%2BTgsh0LJYBzC2u7c7tqMFBz82HqMadwLdmXDo2neE8W1zyzV9b0a52hjpaEbjdmF2GLUFEjfc5OtHdUYC9pCVy6f2J75djy4V1LdGI0x9Xb7IaNeFRSq1IJXK5rT9%2F%2FmGad4rkzpvfrq1tM5wNqE7YZ%2FSJftKiRCnYldTBT79OTe7NXaxheDBKC5te6hF8Sr3UitRWdGolYe9mFlYBsnDopT6GjlawVRuprZB1BcuLcJCh2467gOU%2FIHx5OOwOF8Lrm3dHQfqKoQet8JOm%2BZ1QqcXN%2B6OAN6BFuROQoiNURgUb5XcF43CJvN4A%2FtHVUw%2BCMK0ONRICC7ppK3U7Zb1V7TyKDNWpK4ZCTUTk1zSKsuruq1YLWmfH0qPbdrh8hPJpDA12qCcFA3RQAYv%2F6LUDLUF%2Fc3lNBSuEnUOq8%2FrUf2trcHo%2BThTZ3wXJNxi0L3gjAAAAAElFTkSuQmCC
 
 [julia]: https://img.shields.io/badge/julia-white.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADwAAAApCAYAAABp50paAAAG%2FUlEQVR42tyUA3RjaRiGv7F1MHY0NWLc9CZFaic1grpd27a3ccY2k7W9YRmtbVv%2F%2FnecLLPevOc84dVzPsD%2FJRnbAETWlWO4ZuZMnom%2BXGCmTxVekw5xGb6JCZI7kiaILYk3F6wTflu%2BiUSKtfyPROaEXoEpcQzEWwQmFghNrKtU2xRIvbsSte6uOPxevkmGhGZWeYo1GeIqhIE%2BFlf0DUo0Gqk15R6qA%2BIqfCNzVtF6yQfRsuo9lUi2Ot0tiDdhjpkFWbY0V8vu8gjhxp0lSGxONMVdhSV3sEBgZIgL1gk%2Ba9pVilp2lR%2BWzVnNfp1vpC%2BaKZwJfzpZOj%2BQmgBINYGphNo%2FH79Pl7WPgrTVD391mEzmYWg0GixZsmQMBrzSdHiS4MOz4vRZzwrT5r8InAmpFkYSXlKrSVvaY0Iz82aaFeYbKg9N7a%2FZP%2F9O1cFp%2FfUHQV97EGLOKtkdUGrzAanzNxT3hkaqzgh%2FVtIXCpG6wKmLLAjI1hH4s1m5ciXQ6fTDkgwGYwFGgbFgyvAXcBLsCa4s3tXeouyXvWWKT90Kqcspysy%2B4JpEwLJQ0l8BhtqDGqvG4V%2Fbec9nVq0jgGU71jc4xtypOgQxRdbwAmC5QuVZYdR%2BxYuoA0O91537HMrS%2BDtk2j9fZSxGocQ8hnkXgyhwpdst7DRwSrnXDtZVohFtIxrRNaERTQPyluR%2B6SLYafr6Q9Bfc0C5vve%2B73ec%2Fwg6xobe%2B5C%2B7kCjXmmPUVjnH6PoDN5NSZ5MGwZXPCiqeO0vaWMsuPGY6MnCoVzReE9xzleUbATqeuQiOBZnLgmWVscT28%2BjRCOxqO1P3aHaPwFiCZ7XsYU9waGOKynRSCpOC78p0wVn%2FEXCG35O2EewF%2FgqCw9LRuOSC%2B%2BBs9B4m84RiJTFXPAIsunuev5O1YHpEEvkuMK5HYEdusujKoy%2FF3SH3PL2Yfg7hSG1CTwF5PvRskMttcgpzrzhYNm1YG6237393IcjhKmKm1vs9%2FUr7eNiE9YGgNQG0spPC3%2BiveyIrA6%2F4%2BX1BaEOKGS6wN8qfGFKIjglbO1AVfEP1OxSssNY1pNPvuaUcOffXuuAfuV%2BwZqOuz%2FZdlSakl%2FTcc8XeGNL%2B1UHIKbMXlIA2VhKqglm5HUG9%2BINPajoCt4t1fhJuSYMOH%2BrMAaGhKvAKc6ocudKHvEUyAZcpGC9i8hc%2FqSQDVT6Gw7Anar9fHOT%2FSDe1IO44vZ%2B1X7x7Uo76JU7IOZwuTdBtjoAWZoQ5PS8Mz4z5zagL4Vp%2BKEmy%2BVy6oGjoQR%2BbhP%2F3HG%2FKfwMkQHPEpnwGJ8DCCF4lpcMS2i0OXBSDLX74eqKtUBlX7sL5v3YjTnA2tVEUfg827Zt2zbi339t240a1whqm3Ft27bt9nFNum9zMplnnnuSL3PvXoO93hvd42Fqg7bOOO6sVePjc%2FMM0xnJEvNHw0FgF3iB78Hp6emss%2Flgi4xtwENgeDTYytXLbsow%2FVEsQCU%2BLwGP8Xm0LD%2BmmyM%2BDBwAr8BH8Al8AC%2FBHtDD3d1d29LSsknDBqh8CtTIEvqBQUJSUlJYQjdZjCNCYHiToF6vZhieDKpArUyb8Gv2xbD8ejBj8tzACXBD3oa4gPr2%2BAc2aphN3%2FvUoFMN%2B%2Fn5MW2OQJtAff7DaT%2BhRdEUZvo4gekdQFOJhnXBGU67BuS5a%2BP7d7494laKMwx02FLjtJ3Ilx%2F3sWDcEMUZJi0PvKb4W5Du7%2B%2F%2F%2B0cJjXtfnJ%2FCDAMpIiKC6SbI0YWVLMba0KkSiNhE8FktDPOXF6prC0bzO7R6GCajAQEBrI4jmAV%2ByupVgyPgvdpMaXppUArecnXuQS9TuzUMUlkunH4W2AGJeNBuhrOyslpieGN7GkZeOmzKcloViKCzuP0N023mqqDDRNxbJfawaRcYGKiJ2IF2vnhYgBpO%2B4pjSY9Sb3%2FD1OF6QYfLgBaQqJxO8fY0bCnorwpaHHJWbWap7XosUbIZoErQ6V4wkcq6DjCs38Dsug7%2BBktBbbseS0x3c3NjSc3gdJ4v4EUH3LT%2BaWLcKqL9DEOXnJycNBDrCe4JOj8IYhrYpXuT4VUCU31JmyfQJrFxw8LC2Lj9wEtB33dBMXgi0CJbbBgEyl%2BmU3ImKJNQ9gE9QAjQYRqwAW4cxrTxWXNxd5WG0pJvh%2Fpmqk2J1qoVyAMDQH%2BQinom1N6J7xtx3ZYa%2FgbcRPVpqnGvVTr2SU5OpjEBgZOhiVa0Hulnl05wcLDKsLHA8EfU05aU%2FMAYWw9DwT0y%2BE9oaKiE0hQ85wzvA5LSDbtxpmrAnyCUizPKPDw8FG%2FYmo4Pflt%2FzcUWjRkzRtFe5W8IYmm6VnMmP4Mj4E%2BgTZuRsh8zMzOVaS3amV1RetJxYgC0gKQuTz1r56rftpKlAwAAAABJRU5ErkJggg%3D%3D
-
-[jupyter]: https://img.shields.io/badge/Jupyter-notebook-orange?logo=Jupyter
-
-[python]: https://img.shields.io/badge/Python-white.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V%2B0%2FAAACClBMVEUAAABAgL83erM4ebA2eK43d603dqs3dak2dKg3c6Q5erM4ebA3d643caI3ebA3ea0AgIA3dqs3cKA3d643d603d6s3cJ44dq42dqs2dKk2dKc2cqU2cqM2bpw2ebQ3ebA3eK43d603dqs3dqk3dKg3c6U3cqQ3caI2bZr%2F2Ev%2F2Ej%2F1kf%2F1EU3erE4ebA2bJn%2F2Uj%2F0kI3eLA2a5f%2F1kb%2F0T83eK42a5T%2F1UT%2Fzz83caI4b6A4b542bpw2bps2bJk2a5c1apX80kb%2F00Q3dqs3cqM3cKH%2F31H%2F3k%2F%2F3E7%2F3Ez%2F2Ur%2F10r%2F1kf%2F1UU4dak3caL%2F4FH%2Fyzo3c6c4b6D%2F3k7%2FyTk1c6U3cJ7%2F3E7%2Fyjn%2Fxzg3caM3b543bp3%2F20z%2F00T%2F0kL%2F0UH%2F0D%2F%2Fzj%2F%2FzTz%2Fyzr%2Fyjn%2Fxzj%2F2kv%2F00P%2F0EL%2F0ED%2Fzj7%2FzDz%2F2En%2Fzj7%2FzTz%2Fyzv%2F10f%2Fzj7%2FzDP%2Fyjz%2Fyjr%2F1Ub%2F1ET%2FzDv%2FyTf%2F1UL%2F0UH%2F0ED%2Fzj7%2FzTz%2FzDz%2Fyzn%2Fyjj%2Fv0A3d603dqs3dak3dKc3c6U3cqQ3caI3cKA3b542bpw3eK42bZr%2F1kf%2F1UX%2F00Q2bJn%2F0kI3cqM2a5f%2F0UD%2F0UH%2Fzz%2F%2Fzj3%2F1ET%2FzDz%2F3k%2F%2F3E7%2F20z%2F2Ur%2F2En%2F1Ub%2FzTz%2F10f%2Fzj7%2Fyzr%2F2Uv%2F0kP%2F0D%2F%2F00P%2F0ED%2F%2F%2F9ywrbbAAAAhXRSTlMABGu%2F6vn25bJUkOWrfs%2BDAu%2Fbz%2FbV4G6IiIiI%2BOA9uMzMzMzMzMz84HDu5ncu%2BeB4VaHRe73fda%2F00K6qqqqqoldQ%2FPX%2BVFiou7u7u7vU4b9r8KiOwLA%2Bi836N2Hugs3NzMzMzMzMskDNioiIiHjN0vDiyPsKb%2BJm%2FrmdQqXY7vHjuWkEM28rJQAAAO9JREFUGNNVkK1OA1EYROfcO5emWTYNxeMRhFoUmhB4AhDFoUhwJHVYFBgUCo0hQZUXQKAIkkcogrTkErJB7C4sI8%2FM95NBkkSrT0mSJUl9OAPg%2FEOSQm3ZFwCkTjLBKQDuQMMVnECvgWt0VKwDL95gvPhloccYbpwOO8wGgoMXAGXNok2I9htAedvuJJgjj4BpnQT2syG4gLJgD%2BB9mLOhf2dTzg1AHOZslqvo4OkcG4hVw%2B4TOnjYhZ2vWD22n10jSTreilV%2BBrj8a2kpVrnc3Lb%2FFVLlwWzlKVEP1sn0Opitfo9SU11tadIemUjSD%2Bs0MpPwiOyPAAAAAElFTkSuQmCC
-
-[matlab]: https://img.shields.io/badge/MATLAB-white.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAD3klEQVQ4y53UT4hVdRTA8e%2B5v%2Fvv3ffnzrw3M%2FiH0RjmT2PhkGZM9mdRL80MRWzjQhEXIZK6yBZBBS2iRRJChYsEg4yocBIUMfq3CDFKRWcMnJmmpkHnDTO%2BnJk3f9597977a%2FGQMhQZz%2BZszvlwOHCOsIDIb9uG6minmmvc0PXFkYOPFH4%2FnBszPiouEr1jaOq2WmMhMN3dVNo6FttDQ292ZQsrOlao16ZzstJTAP79wfkDB2D%2FfpFC4eVk36Xuzq45lq5hmeey65cR5PM2Fg7n162D9nY4dOgp48bE7uxwv9T7QmYxuC6bVi2h1ZQFwvmWFsjnYXi4Bct61%2BzvX9RYKeGGgmuBl2S5afCcI3Cs1b83nAfymzdDQ4PDyMhaUqmP9djYWq%2FvMnUJwQpAheAlEWXwYikkYf1navOOaLkMZ89CLtfG%2BfNvMzq6nomJrDEwgD9VJL1YkACMALwUKIM1lqbTEC7eMtT%2F0QSwbHoafeFCs5RKRygUNtHXl2B8HLf%2FKkvCWZbVC63NkErC7A0oTuBFMYOOcG5jvUvP38G%2FE%2B%2F94ze4fh1c1zbm5h6%2B9vWp16d6ep7h5k0QQTIZMlNFUq7g2qBDoAKOC7YN5QrrpyMOm8IcgLH32iB7tQatc2SzW4HP4jA80%2FTYqpey7S3IzAxYFvZYAV9iPIsaHAFVcJwabgirLKFTya0dz893MXTlBaJoC1G0kihyiGNM16Hp6ccxEgmKP%2F9KpjRJ2hE8CxwbtIY4BNMCNwHKIGdo8o5w4Virj0Ecr6dSeZUgWEMQOFSrEEWgNVopqhq8wij1piZpQtKtwQA6BtOEhFfLBmwoRWRMAYMwfJ9KZSfl8mWCACoViCJ0HHPjr1HKP%2FxILiyTMYWkDclEbRUCxDEoVYMdBwxhtSk8qgQMJidDJidPUa1upVr9lDCsRGEYTVwf1zMnT5MrjpO1hbQFGQ%2FStxADNGAo%2FrRtTpsW%2FcogpYQtvbOI8cETeejtg1JpSObn90TK3DWt7O0z33z3TtPw4EyTI9TZkE1D1gc%2FDZ4LSqG15rgy2eh5bI5CnhfhqCE8u9KjTe50ILsb0xTL2mrz1cH6BPsafGisg3of%2FBRkkpBwOZ6w2RPHjJsOfP8ViJAOY96KNaNyt5M%2ButonjHjwgaWcWdTE8pQHtgmmAjQ%2FodkBDDsW1L1X%2B8UnOnyAdKzpvivct9Nn3yfIqQ855ObYJ1XQ0xBOcmWuxHbT5FIQQMPB2x%2F88XYfQO4Ka%2B3DABDyJD4nCahjkIsM8QrNnIt7Qb0xxX2FHvHRV%2F2UnvBP6Dn%2FS93vP6S1j%2F7Wv2fvPzd4aYILeYaYAAAAAElFTkSuQmCC
