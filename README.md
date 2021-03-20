@@ -12,117 +12,130 @@ A curated list of repositories related to fluid dynamics.
 
 
 - [Awesome Fluid Dynamics](#awesome-fluid-dynamics)
-  - [1. Computational fluid dynamics (CFD)](#1-computational-fluid-dynamics-cfd)
-    - [1.1 Educational](#11-educational)
-    - [1.2 Meshing](#12-meshing)
-    - [1.3 Solvers](#13-solvers)
+  - [1. Educational](#1-educational)
+  - [2. Computational fluid dynamics (CFD)](#2-computational-fluid-dynamics-cfd)
+    - [Meshing](#meshing)
+    - [Solvers](#solvers)
       - [Finite element methods (FEM)](#finite-element-methods-fem)
       - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
       - [Spectral methods](#spectral-methods)
-      - [Others](#others)
-  - [2. Experimental fluid dynamics](#2-experimental-fluid-dynamics)
-    - [2.1 PIV / PTV](#21-piv--ptv)
-    - [2.2 Machine learning / AI](#22-machine-learning--ai)
-  - [3. Visualization, analysis and post-processing](#3-visualization-analysis-and-post-processing)
-    - [3.1 2D plotting](#31-2d-plotting)
-    - [3.2 3D plotting](#32-3d-plotting)
-    - [3.3 Analysis](#33-analysis)
-  - [4. Benchmarks and datasets](#4-benchmarks-and-datasets)
+      - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
+    - [Other techniques](#other-techniques)
+  - [3. Experimental fluid dynamics](#3-experimental-fluid-dynamics)
+    - [PIV / PTV](#piv--ptv)
+    - [Machine learning / AI](#machine-learning--ai)
+  - [4. Visualization, analysis and post-processing](#4-visualization-analysis-and-post-processing)
+    - [2D visualization](#2d-visualization)
+    - [3D visualization](#3d-visualization)
+    - [Data post-processing](#data-post-processing)
+  - [5. Benchmarks and datasets](#5-benchmarks-and-datasets)
     - [Dataset](#dataset)
     - [Benchmark](#benchmark)
-  - [Related](#related)
+  - [6. Related links](#6-related-links)
 
 --------------------------------
 
+## 1. Educational
 
-## 1. Computational fluid dynamics (CFD)
+- [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
+- [gpeyre/numerical-tours](https://github.com/gpeyre/numerical-tours): Numerical Tours of Signal Processing and other materials. ![MATLAB](logo/MATLAB.svg) ![Python](logo/Python.svg) ![Jupyter](logo/Jupyter.svg) ![julia](logo/julia.svg) ![R](logo/R.svg)
 
-### 1.1 Educational
-- [barbagroup / CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
+## 2. Computational fluid dynamics (CFD)
 
-### 1.2 Meshing
-- [nschloe / optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
-- [nschloe / pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![Python](logo/Python.svg)
-- [PyMesh / PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [cnr-isti-vclab / meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![C++](logo/cpp.svg)
-- [inducer / meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+### Meshing
+
+- [nschloe/optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
+- [nschloe/pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![Python](logo/Python.svg)
+- [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![C++](logo/cpp.svg)
+- [inducer/meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [Gmsh](https://gmsh.info/): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
-- [CGAL / cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
+- [CGAL/cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
 
 
-### 1.3 Solvers
+### Solvers
+
 #### Finite element methods (FEM)
-- [JuliaFEM / JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
-- [FEniCS / dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg) 
+
+- [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
+- [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg) 
 - [deal.II](https://dealii.org/): An open source finite element library ![C++](logo/cpp.svg)
 
 #### Finite volume methods (FVM)
-- [OpenFOAM / OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![C++](logo/cpp.svg)
-- [su2code / SU2](https://github.com/su2code/SU2): SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+
+- [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![C++](logo/cpp.svg)
+- [su2code/SU2](https://github.com/su2code/SU2): SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
 #### Spectral methods
 
-- [DedalusProject / dedalus](https://github.com/DedalusProject/dedalus):  A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
-- [FourierFlows / FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl): Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia](logo/julia.svg)
-- [Nek5000 / Nek5000](https://github.com/Nek5000/Nek5000): NEK5000 is an spectral element CFD code developed at the Mathematics and Computer Science Division of Argonne National Laboratory. ![FORTRAN](logo/FORTRAN.svg)
-- [spectralDNS / shenfun](https://github.com/spectralDNS/shenfun): High performance computational platform in Python for the spectral Galerkin method ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
+- [DedalusProject/dedalus](https://github.com/DedalusProject/dedalus):  A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
+- [FourierFlows/FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl): Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia](logo/julia.svg)
+- [Nek5000/Nek5000](https://github.com/Nek5000/Nek5000): NEK5000 is an spectral element CFD code developed at the Mathematics and Computer Science Division of Argonne National Laboratory. ![FORTRAN](logo/FORTRAN.svg)
+- [spectralDNS/shenfun](https://github.com/spectralDNS/shenfun): High performance computational platform in Python for the spectral Galerkin method ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
 
-#### Others
+#### Lattice Boltzmann methods (LBM)
 
-- [aromanro / LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann): A 2D Lattice Boltzmann program ![C++](logo/cpp.svg)
-- [jostbr / shallow-water](https://github.com/jostbr/shallow-water): Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
-- [PavelDoGreat / WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation): Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
-- [PyFR / PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
+- [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann): A 2D Lattice Boltzmann program ![C++](logo/cpp.svg)
 
-## 2. Experimental fluid dynamics 
+### Other techniques
 
-### 2.1 PIV / PTV
+- [jostbr/shallow-water](https://github.com/jostbr/shallow-water): Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
+- [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation): Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
+- [PyFR/PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
 
-- [JHU-NI-LAB / OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box): Open-source C++ code for Shake-the-box, particle tracking algorithm ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
-- [OpenPTV / openptv](https://github.com/openptv/openptv) OpenPTV - open source 3D-PTV software ![C++](logo/cpp.svg)
-- [OpenPIV / openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) (https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
-- [OpenPTV / pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![Python](logo/Python.svg)
+## 3. Experimental fluid dynamics 
 
-### 2.2 Machine learning / AI
+### PIV / PTV
 
-- [erizmr / UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
-- [shengzesnail / PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
-- [yongleex / PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
+- [JHU-NI-LAB/OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box): Open-source C++ code for Shake-the-box, particle tracking algorithm ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
+- [OpenPTV/openptv](https://github.com/openptv/openptv) OpenPTV - open source 3D-PTV software ![C++](logo/cpp.svg)
+- [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) (https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
+- [OpenPTV/pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![Python](logo/Python.svg)
+
+### Machine learning / AI
+
+- [erizmr/UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
+- [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
+- [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
 
 
-## 3. Visualization, analysis and post-processing
+## 4. Visualization, analysis and post-processing
 
-### 3.1 2D plotting
+### 2D visualization
 
-- [matplotlib / matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![Python](logo/Python.svg)
-- [scikit-image / scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![Python](logo/Python.svg)
+- [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![Python](logo/Python.svg)
+- [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![Python](logo/Python.svg)
 
-### 3.2 3D plotting
+### 3D visualization
 
-- [K3D-tools / K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter): K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
-- [sciapp / gr](https://github.com/sciapp/gr): GR framework: a graphics library for visualisation applications ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [QuantStack / ipygany](https://github.com/QuantStack/ipygany):  3-D Scientific Visualization in the Jupyter Notebook ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
-- [InsightSoftwareConsortium / itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets):  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
-- [NVIDIA / ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
-- [Kitware / Vtk](https://gitlab.kitware.com/vtk/vtk): Visualization Toolkit ![C++](logo/cpp.svg)
-- [Kitware / paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
+- [K3D-tools/K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter): K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
+- [sciapp/gr](https://github.com/sciapp/gr): GR framework: a graphics library for visualisation applications ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [QuantStack/ipygany](https://github.com/QuantStack/ipygany):  3-D Scientific Visualization in the Jupyter Notebook ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
+- [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets):  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
+- [NVIDIA/ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
+- [Kitware/Vtk](https://gitlab.kitware.com/vtk/vtk): Visualization Toolkit ![C++](logo/cpp.svg)
+- [Kitware/paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 
-### 3.3 Analysis
+### Data post-processing
 
-- [numpy / numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
-- [mathLab / PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
+- [numpy/numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
+- [mathLab/PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
+- [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy): A sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems. ![Python](logo/Python.svg)
+- [ritchieng/eigenvectors-from-eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues): This repository implements a calculation of eigenvectors from eigenvectors elegantly through PyTorch. ![Jupyter](logo/Jupyter.svg)
 
-## 4. Benchmarks and datasets
+## 5. Benchmarks and datasets
 
 ### Dataset
 
-- [shengzesnail / PIV_dataset](https://github.com/shengzesnail/PIV_dataset):  PIV dataset ![MATLAB](logo/MATLAB.svg)
-- [idies / pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
+- [shengzesnail/PIV_dataset](https://github.com/shengzesnail/PIV_dataset):  PIV dataset ![MATLAB](logo/MATLAB.svg)
+- [idies/pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
 
 ### Benchmark
 
-## Related
+*`TODO`*
 
-- [alexlib / awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
-- [nschloe / awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing): Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](https://awesome.re/badge-flat.svg)
-- [qd-cae / awesome-CAE](https://github.com/qd-cae/awesome-CAE): A curated list of awesome CAE frameworks, libraries and software. ![Awesome](https://awesome.re/badge-flat.svg)
+## 6. Related links
+
+- [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
+- [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing): Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](https://awesome.re/badge-flat.svg)
+- [qd-cae/awesome-CAE](https://github.com/qd-cae/awesome-CAE): A curated list of awesome CAE frameworks, libraries and software. ![Awesome](https://awesome.re/badge-flat.svg)
