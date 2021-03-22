@@ -46,6 +46,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [nschloe/optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
 - [nschloe/pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![Python](logo/Python.svg)
+- [nschloe/meshio](https://github.com/nschloe/meshio): I/O for exhaustive number of mesh file types ![Python](logo/python.svg)
 - [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![C++](logo/cpp.svg)
 - [inducer/meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -115,6 +116,7 @@ A curated list of repositories related to fluid dynamics.
 - [NVIDIA/ipyparaview](https://github.com/NVIDIA/ipyparaview):  iPython widget for server-side ParaView rendering in Jupyter. ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
 - [Kitware/Vtk](https://gitlab.kitware.com/vtk/vtk): Visualization Toolkit ![C++](logo/cpp.svg)
 - [Kitware/paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
+- [pyvista/pyvista](https://github.com/pyvista/pyvista): 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK) ![Python](logo/Python.svg)
 
 ### Data post-processing
 
