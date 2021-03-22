@@ -46,7 +46,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [nschloe/optimesh](https://github.com/nschloe/optimesh): Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
 - [nschloe/pygmsh](https://github.com/nschloe/pygmsh): Gmsh for Python ![Python](logo/Python.svg)
-- [nschloe/meshio](https://github.com/nschloe/meshio): I/O for exhaustive number of mesh file types ![Python](logo/python.svg)
+- [nschloe/meshio](https://github.com/nschloe/meshio): I/O for exhaustive number of mesh file types ![Python](logo/Python.svg)
 - [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![C++](logo/cpp.svg)
 - [inducer/meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
