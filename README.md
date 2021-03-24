@@ -20,7 +20,7 @@ A curated list of repositories related to fluid dynamics.
       - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
       - [Spectral methods](#spectral-methods)
       - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
-    - [Other techniques](#other-techniques)
+      - [Other techniques](#other-techniques)
   - [3. Experimental fluid dynamics](#3-experimental-fluid-dynamics)
     - [PIV / PTV](#piv--ptv)
     - [Machine learning / AI](#machine-learning--ai)
@@ -78,11 +78,12 @@ A curated list of repositories related to fluid dynamics.
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann): A 2D Lattice Boltzmann program ![C++](logo/cpp.svg)
 
-### Other techniques
+#### Other techniques
 
 - [jostbr/shallow-water](https://github.com/jostbr/shallow-water): Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation): Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
 - [PyFR/PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
+- [precice/precice](https://github.com/precice/precice): A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
 
 ## 3. Experimental fluid dynamics 
 
