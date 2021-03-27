@@ -85,6 +85,7 @@ A curated list of repositories related to fluid dynamics.
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation): Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
 - [PyFR/PyFR](https://github.com/PyFR/PyFR): Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
 - [precice/precice](https://github.com/precice/precice): A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
+- [cwrowley/ibpm](https://github.com/cwrowley/ibpm): Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
 
 ## 3. Experimental fluid dynamics 
 
