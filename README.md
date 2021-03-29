@@ -13,7 +13,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [Awesome Fluid Dynamics](#awesome-fluid-dynamics)
   - [1. Educational](#1-educational)
-    - [Notebooks](#nodebooks)
+    - [Notebooks](#notebooks)
     - [Lecture Series](#lecture-series)
   - [2. Computational fluid dynamics (CFD)](#2-computational-fluid-dynamics-cfd)
     - [Meshing](#meshing)
