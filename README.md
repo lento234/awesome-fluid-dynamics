@@ -135,6 +135,8 @@ A curated list of repositories related to fluid dynamics.
 - [mathLab/PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
 - [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy): A sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems. ![Python](logo/Python.svg)
 - [ritchieng/eigenvectors-from-eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues): This repository implements a calculation of eigenvectors from eigenvectors elegantly through PyTorch. ![Jupyter](logo/Jupyter.svg)
+- [mengaldo/PySPOD](https://github.com/mengaldo/PySPOD):  A Python package for spectral proper orthogonal decomposition (SPOD).  ![Python](logo/Python.svg)
+- [belson17/modred](https://github.com/belson17/modred): An easy-to-use and parallelized library for finding modal decompositions and reduced-order models. ![Python](logo/Python.svg)
 
 ## 5. Benchmarks and datasets
 
