@@ -23,9 +23,10 @@ A curated list of repositories related to fluid dynamics.
       - [Spectral methods](#spectral-methods)
       - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
       - [Other techniques](#other-techniques)
+    - [Machine learning / Deep Learning](#machine-learning--deep-learning)
   - [3. Experimental fluid dynamics](#3-experimental-fluid-dynamics)
     - [PIV / PTV](#piv--ptv)
-    - [Machine learning / AI](#machine-learning--ai)
+    - [Machine learning](#machine-learning)
   - [4. Visualization, analysis and post-processing](#4-visualization-analysis-and-post-processing)
     - [2D visualization](#2d-visualization)
     - [3D visualization](#3d-visualization)
@@ -95,6 +96,13 @@ A curated list of repositories related to fluid dynamics.
 - [cwrowley/ibpm](https://github.com/cwrowley/ibpm): Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
 - [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM): PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures ![C++](logo/cpp.svg)
 
+### Machine learning / Deep Learning
+
+- [lululxvi/deepxde](https://github.com/lululxvi/deepxde): Deep learning library for solving differential equations and more ![Python](logo/Python.svg)
+- [SciML/NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl): Physics-Informed Neural Networks (PINN) and Deep BSDE Solvers of Differential Equations for Scientific Machine Learning (SciML) accelerated simulation ![julia](logo/julia.svg)
+- [google/neural-tangents](https://github.com/google/neural-tangents):  Fast and Easy Infinite Neural Networks in Python ![Python](logo/Python.svg)
+- [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch): A highly efficient and modular implementation of Gaussian Processes in PyTorch ![Python](logo/Python.svg)
+
 ## 3. Experimental fluid dynamics 
 
 ### PIV / PTV
@@ -104,12 +112,11 @@ A curated list of repositories related to fluid dynamics.
 - [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) (https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
 - [OpenPTV/pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![Python](logo/Python.svg)
 
-### Machine learning / AI
+### Machine learning
 
 - [erizmr/UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
 - [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
 - [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
-
 
 ## 4. Visualization, analysis and post-processing
 
