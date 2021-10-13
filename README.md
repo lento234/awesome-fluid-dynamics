@@ -34,7 +34,8 @@ A curated list of repositories related to fluid dynamics.
   - [5. Benchmarks and datasets](#5-benchmarks-and-datasets)
     - [Dataset](#dataset)
     - [Benchmark](#benchmark)
-  - [6. Related links](#6-related-links)
+  - [6. Reproducibility](#6-reproducibility)
+  - [7. Related links](#7-related-links)
 
 --------------------------------
 
@@ -98,10 +99,13 @@ A curated list of repositories related to fluid dynamics.
 
 ### Machine learning / Deep Learning
 
-- [lululxvi/deepxde](https://github.com/lululxvi/deepxde): Deep learning library for solving differential equations and more ![Python](logo/Python.svg)
-- [SciML/NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl): Physics-Informed Neural Networks (PINN) and Deep BSDE Solvers of Differential Equations for Scientific Machine Learning (SciML) accelerated simulation ![julia](logo/julia.svg)
-- [google/neural-tangents](https://github.com/google/neural-tangents):  Fast and Easy Infinite Neural Networks in Python ![Python](logo/Python.svg)
-- [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch): A highly efficient and modular implementation of Gaussian Processes in PyTorch ![Python](logo/Python.svg)
+- [lululxvi/deepxde](https://github.com/lululxvi/deepxde): Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
+- [SciML/NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl): Physics-Informed Neural Networks (PINN) and Deep BSDE Solvers of Differential Equations for Scientific Machine Learning (SciML) accelerated simulation. ![julia](logo/julia.svg)
+- [google/neural-tangents](https://github.com/google/neural-tangents):  Fast and Easy Infinite Neural Networks in Python. ![Python](logo/Python.svg)
+- [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch): A highly efficient and modular implementation of Gaussian Processes in PyTorch. ![Python](logo/Python.svg)
+- [google/jax-cfd](https://github.com/google/jax-cfd): Computational Fluid Dynamics in JAX. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/google/jax-cfd/search?l=jupyter-notebook)
+- [isl-org/DeepLagrangianFluids](https://github.com/isl-org/DeepLagrangianFluids): Lagrangian Fluid Simulation with Continuous Convolutions. ![Python](logo/Python.svg)
+- [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow): A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
 
 ## 3. Experimental fluid dynamics 
 
@@ -109,14 +113,14 @@ A curated list of repositories related to fluid dynamics.
 
 - [JHU-NI-LAB/OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box): Open-source C++ code for Shake-the-box, particle tracking algorithm ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
 - [OpenPTV/openptv](https://github.com/openptv/openptv) OpenPTV - open source 3D-PTV software ![C++](logo/cpp.svg)
-- [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) (https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
-- [OpenPTV/pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry ![Python](logo/Python.svg)
+- [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python): OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
+- [OpenPTV/pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
 
 ### Machine learning
 
 - [erizmr/UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV): Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
 - [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
-- [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
+- [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network. ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
 
 ## 4. Visualization, analysis and post-processing
 
@@ -124,6 +128,8 @@ A curated list of repositories related to fluid dynamics.
 
 - [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib): matplotlib: plotting with Python ![Python](logo/Python.svg)
 - [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image): Image processing in Python ![Python](logo/Python.svg)
+- [3b1b/manim](https://github.com/3b1b/manim): Animation engine for explanatory math videos. ![Python](logo/Python.svg)
+- [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots): Matplotlib styles for scientific plotting. ![Python](logo/Python.svg)
 
 ### 3D visualization
 
@@ -144,19 +150,24 @@ A curated list of repositories related to fluid dynamics.
 - [ritchieng/eigenvectors-from-eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues): This repository implements a calculation of eigenvectors from eigenvectors elegantly through PyTorch. ![Jupyter](logo/Jupyter.svg)
 - [mengaldo/PySPOD](https://github.com/mengaldo/PySPOD):  A Python package for spectral proper orthogonal decomposition (SPOD).  ![Python](logo/Python.svg)
 - [belson17/modred](https://github.com/belson17/modred): An easy-to-use and parallelized library for finding modal decompositions and reduced-order models. ![Python](logo/Python.svg)
+- [Astroua/TurbuStat](https://github.com/Astroua/TurbuStat): Statistics of Turbulence Python Package. ![Python](logo/Python.svg)
 
 ## 5. Benchmarks and datasets
 
 ### Dataset
 
-- [shengzesnail/PIV_dataset](https://github.com/shengzesnail/PIV_dataset):  PIV dataset ![MATLAB](logo/MATLAB.svg)
-- [idies/pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
+- [shengzesnail/PIV_dataset](https://github.com/shengzesnail/PIV_dataset): PIV dataset ![MATLAB](logo/MATLAB.svg)
+- [idies/pyJHTDB](https://github.com/idies/pyJHTDB):  Python wrapper for the Johns Hopkins turbulence database library. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
 
 ### Benchmark
 
 *`TODO`*
 
-## 6. Related links
+## 6. Reproducibility
+
+- [iterative/dvc](https://github.com/iterative/dvc): Data Version Control | Git for Data & Models | ML Experiments Management. ![Python](logo/Python.svg) 
+
+## 7. Related links
 
 - [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
 - [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing): Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](https://awesome.re/badge-flat.svg)
