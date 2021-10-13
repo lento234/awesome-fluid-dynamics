@@ -59,7 +59,7 @@ A curated list of repositories related to fluid dynamics.
 - [PyMesh/PyMesh](https://github.com/PyMesh/PyMesh): Geometry Processing Library for Python ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab): The open source mesh processing system ![C++](logo/cpp.svg)
 - [inducer/meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [gmsh](http://gmsh.info): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
+- [gmsh](https://tinyurl.com/23z4ee6h): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
 - [CGAL/cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
 
 
