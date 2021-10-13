@@ -172,3 +172,4 @@ A curated list of repositories related to fluid dynamics.
 - [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
 - [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing): Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](https://awesome.re/badge-flat.svg)
 - [qd-cae/awesome-CAE](https://github.com/qd-cae/awesome-CAE): A curated list of awesome CAE frameworks, libraries and software. ![Awesome](https://awesome.re/badge-flat.svg)
+- [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets):  A topic-centric list of HQ open datasets. ![Awesome](https://awesome.re/badge-flat.svg)
