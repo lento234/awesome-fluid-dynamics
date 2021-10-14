@@ -15,6 +15,7 @@ A curated list of repositories related to fluid dynamics.
   - [1. Educational](#1-educational)
     - [Notebooks](#notebooks)
     - [Lecture series](#lecture-series)
+    - [Books](#books)
   - [2. Computational fluid dynamics (CFD)](#2-computational-fluid-dynamics-cfd)
     - [Meshing](#meshing)
     - [Solvers](#solvers)
@@ -48,6 +49,10 @@ A curated list of repositories related to fluid dynamics.
 ### Lecture series
 - [Steve Brunton/Fluid Dynamics](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQWO3ESiccZmPssvUDFHL4M): Prof. Brunton's lecture series on Fluid dynamics. ![YouTube](logo/YouTube.svg)
 - [Barry Belmont/NSF Fluid Mechanics Series](https://www.youtube.com/playlist?list=PL0EC6527BE871ABA3): A collection of NFS Fluid Mechanics lecutre series from mid 20th century. ![YouTube](logo/YouTube.svg)
+
+### Books
+
+- [Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control 1st Edition](http://databookuw.com) ([Amazon](https://www.amazon.com/Data-Driven-Science-Engineering-Learning-Dynamical/dp/1108422098))
 
 ## 2. Computational fluid dynamics (CFD)
 
