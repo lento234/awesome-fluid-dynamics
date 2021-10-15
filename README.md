@@ -10,8 +10,10 @@ A curated list of repositories related to fluid dynamics.
 
 </div>
 
+## Contents
 
 - [Awesome Fluid Dynamics](#awesome-fluid-dynamics)
+  - [Contents](#contents)
   - [1. Educational](#1-educational)
     - [Notebooks](#notebooks)
     - [Lecture series](#lecture-series)
@@ -37,8 +39,6 @@ A curated list of repositories related to fluid dynamics.
     - [Benchmark](#benchmark)
   - [6. Reproducibility](#6-reproducibility)
   - [7. Related links](#7-related-links)
-
---------------------------------
 
 ## 1. Educational
 
