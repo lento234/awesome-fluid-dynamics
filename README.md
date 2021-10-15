@@ -75,6 +75,7 @@ A curated list of repositories related to fluid dynamics.
 - [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg) 
 - [deal.II](https://dealii.org/): An open source finite element library ![C++](logo/cpp.svg)
+- [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake): Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM) ![Python](logo/Python.svg)
 
 #### Finite volume methods (FVM)
 
@@ -101,6 +102,10 @@ A curated list of repositories related to fluid dynamics.
 - [precice/precice](https://github.com/precice/precice): A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
 - [cwrowley/ibpm](https://github.com/cwrowley/ibpm): Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
 - [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM): PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures ![C++](logo/cpp.svg)
+- [vortexmethods/VM2D](https://github.com/vortexmethods/VM2D): VM2D: Open-Source Code for 2D Flow Simulation by Using Meshless Lagrangian Vortex Methods ![C++](logo/cpp.svg)
+- [markstock/vic2d](https://github.com/markstock/vic2d): Two-dimensional semi-Lagrangian vortex method for very low viscosity fluid simulation ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg)
+- [Cantera/cantera](https://github.com/Cantera/cantera): Chemical kinetics, thermodynamics, and transport tool suite ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus): EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
 
 ### Machine learning / Deep Learning
 
@@ -157,6 +162,7 @@ A curated list of repositories related to fluid dynamics.
 - [mengaldo/PySPOD](https://github.com/mengaldo/PySPOD):  A Python package for spectral proper orthogonal decomposition (SPOD).  ![Python](logo/Python.svg)
 - [belson17/modred](https://github.com/belson17/modred): An easy-to-use and parallelized library for finding modal decompositions and reduced-order models. ![Python](logo/Python.svg)
 - [Astroua/TurbuStat](https://github.com/Astroua/TurbuStat): Statistics of Turbulence Python Package. ![Python](logo/Python.svg)
+- [SURGroup/UQpy](https://github.com/SURGroup/UQpy): UQpy (Uncertainty Quantification with python) is a general purpose Python toolbox for modeling uncertainty in physical and mathematical systems. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/SURGroup/UQpy/search?l=jupyter-notebook)
 
 ## 5. Benchmarks and datasets
 
@@ -172,6 +178,7 @@ A curated list of repositories related to fluid dynamics.
 ## 6. Reproducibility
 
 - [iterative/dvc](https://github.com/iterative/dvc): Data Version Control | Git for Data & Models | ML Experiments Management. ![Python](logo/Python.svg) 
+- [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg) 
 
 ## 7. Related links
 
