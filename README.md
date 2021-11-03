@@ -106,6 +106,7 @@ A curated list of repositories related to fluid dynamics.
 - [markstock/vic2d](https://github.com/markstock/vic2d): Two-dimensional semi-Lagrangian vortex method for very low viscosity fluid simulation ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg)
 - [Cantera/cantera](https://github.com/Cantera/cantera): Chemical kinetics, thermodynamics, and transport tool suite ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus): EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
+- [uDALES/u-dales](https://github.com/uDALES/u-dales): uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
 
 ### Machine learning / Deep Learning
 
