@@ -30,15 +30,15 @@ A curated list of repositories related to fluid dynamics.
   - [3. Experimental fluid dynamics](#3-experimental-fluid-dynamics)
     - [PIV / PTV](#piv--ptv)
     - [Machine learning](#machine-learning)
-  - [4. Visualization, analysis and post-processing](#4-visualization-analysis-and-post-processing)
+  - [4. Post-processing and data analysis](#4-post-processing-and-data-analysis)
+  - [5. Visualization](#5-visualization)
     - [2D visualization](#2d-visualization)
     - [3D visualization](#3d-visualization)
-    - [Data post-processing](#data-post-processing)
-  - [5. Benchmarks and datasets](#5-benchmarks-and-datasets)
+  - [6. Benchmarks and datasets](#6-benchmarks-and-datasets)
     - [Dataset](#dataset)
     - [Benchmark](#benchmark)
-  - [6. Reproducibility](#6-reproducibility)
-  - [7. Related links](#7-related-links)
+  - [7. Reproducibility](#7-reproducibility)
+  - [8. Related links](#8-related-links)
 
 ## 1. Educational
 
@@ -133,7 +133,18 @@ A curated list of repositories related to fluid dynamics.
 - [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
 - [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network. ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
 
-## 4. Visualization, analysis and post-processing
+## 4. Post-processing and data analysis
+
+- [numpy/numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
+- [mathLab/PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
+- [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy): A sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems. ![Python](logo/Python.svg)
+- [ritchieng/eigenvectors-from-eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues): This repository implements a calculation of eigenvectors from eigenvectors elegantly through PyTorch. ![Jupyter](logo/Jupyter.svg)
+- [mengaldo/PySPOD](https://github.com/mengaldo/PySPOD):  A Python package for spectral proper orthogonal decomposition (SPOD).  ![Python](logo/Python.svg)
+- [belson17/modred](https://github.com/belson17/modred): An easy-to-use and parallelized library for finding modal decompositions and reduced-order models. ![Python](logo/Python.svg)
+- [Astroua/TurbuStat](https://github.com/Astroua/TurbuStat): Statistics of Turbulence Python Package. ![Python](logo/Python.svg)
+- [SURGroup/UQpy](https://github.com/SURGroup/UQpy): UQpy (Uncertainty Quantification with python) is a general purpose Python toolbox for modeling uncertainty in physical and mathematical systems. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/SURGroup/UQpy/search?l=jupyter-notebook)
+- [haller-group/LCStool](https://github.com/haller-group/LCStool): LCStool: LCS Tool is a computational engine for analyzing fluid flows by extracting their most influential material surfaces, Lagrangian Coherent Structures. ![MATLAB](logo/MATLAB.svg)
+## 5. Visualization
 
 ### 2D visualization
 
@@ -154,18 +165,7 @@ A curated list of repositories related to fluid dynamics.
 - [Kitware/paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 - [pyvista/pyvista](https://github.com/pyvista/pyvista): 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK) ![Python](logo/Python.svg)
 
-### Data post-processing
-
-- [numpy/numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
-- [mathLab/PyDMD](https://github.com/mathLab/PyDMD):  Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
-- [dynamicslab/pysindy](https://github.com/dynamicslab/pysindy): A sparse regression package with several implementations for the Sparse Identification of Nonlinear Dynamical systems. ![Python](logo/Python.svg)
-- [ritchieng/eigenvectors-from-eigenvalues](https://github.com/ritchieng/eigenvectors-from-eigenvalues): This repository implements a calculation of eigenvectors from eigenvectors elegantly through PyTorch. ![Jupyter](logo/Jupyter.svg)
-- [mengaldo/PySPOD](https://github.com/mengaldo/PySPOD):  A Python package for spectral proper orthogonal decomposition (SPOD).  ![Python](logo/Python.svg)
-- [belson17/modred](https://github.com/belson17/modred): An easy-to-use and parallelized library for finding modal decompositions and reduced-order models. ![Python](logo/Python.svg)
-- [Astroua/TurbuStat](https://github.com/Astroua/TurbuStat): Statistics of Turbulence Python Package. ![Python](logo/Python.svg)
-- [SURGroup/UQpy](https://github.com/SURGroup/UQpy): UQpy (Uncertainty Quantification with python) is a general purpose Python toolbox for modeling uncertainty in physical and mathematical systems. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/SURGroup/UQpy/search?l=jupyter-notebook)
-
-## 5. Benchmarks and datasets
+## 6. Benchmarks and datasets
 
 ### Dataset
 
@@ -176,12 +176,12 @@ A curated list of repositories related to fluid dynamics.
 
 *`TODO`*
 
-## 6. Reproducibility
+## 7. Reproducibility
 
 - [iterative/dvc](https://github.com/iterative/dvc): Data Version Control | Git for Data & Models | ML Experiments Management. ![Python](logo/Python.svg) 
 - [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg) 
 
-## 7. Related links
+## 8. Related links
 
 - [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv); A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](https://awesome.re/badge-flat.svg)
 - [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing): Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](https://awesome.re/badge-flat.svg)
