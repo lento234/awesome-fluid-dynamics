@@ -177,7 +177,7 @@ A curated list of repositories related to fluid dynamics.
 
 ### Benchmark
 
-*`TODO`*
+- [dionhaefner/pyhpc-benchmarks](https://github.com/dionhaefner/pyhpc-benchmarks):  A suite of benchmarks for CPU and GPU performance of the most popular high-performance libraries for Python ![Python](logo/Python.svg)
 
 ## 7. Reproducibility
 
