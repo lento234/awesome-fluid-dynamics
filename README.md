@@ -112,6 +112,7 @@ A curated list of repositories related to fluid dynamics.
 - [DARcorporation/xfoil-python](https://github.com/DARcorporation/xfoil-python): Stripped down version of XFOIL as compiled python module ![Python](logo/Python.svg)
 - [mdolab/dafoam](https://github.com/mdolab/dafoam):  DAFoam: Discrete Adjoint with OpenFOAM for High-fidelity Gradient-based Design Optimization ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox): Aircraft design optimization made fast through modern automatic differentiation. Plug-and-play analysis tools for aerodynamics, propulsion, structures, trajectory design, and much more. ![Python](logo/Python.svg)
+- [team-ocean/veros](https://github.com/team-ocean/veros): The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
 
 ### Machine learning / Deep Learning
 
