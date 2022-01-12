@@ -108,6 +108,7 @@ A curated list of repositories related to fluid dynamics.
 - [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus): EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
 - [uDALES/u-dales](https://github.com/uDALES/u-dales): uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi):  Parallel programming for everyone. ![Python](logo/Python.svg)
+- [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox): Aircraft design optimization made fast through modern automatic differentiation. Plug-and-play analysis tools for aerodynamics, propulsion, structures, trajectory design, and much more. ![Python](logo/Python.svg)
 
 ### Machine learning / Deep Learning
 
