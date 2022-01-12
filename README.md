@@ -82,6 +82,7 @@ A curated list of repositories related to fluid dynamics.
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev): OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![C++](logo/cpp.svg)
 - [su2code/SU2](https://github.com/su2code/SU2): SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [cselab/aphros](https://github.com/cselab/aphros): Finite volume solver for incompressible multiphase flows with surface tension ![C++](logo/cpp.svg)
+- [code-saturne/code_saturne](https://github.com/code-saturne/code_saturne):  code_saturne public mirror ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg) ![Python](logo/Python.svg)
 
 #### Spectral methods
 
@@ -109,6 +110,7 @@ A curated list of repositories related to fluid dynamics.
 - [uDALES/u-dales](https://github.com/uDALES/u-dales): uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi):  Parallel programming for everyone. ![Python](logo/Python.svg)
 - [mdolab/dafoam](https://github.com/mdolab/dafoam):  DAFoam: Discrete Adjoint with OpenFOAM for High-fidelity Gradient-based Design Optimization ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox): Aircraft design optimization made fast through modern automatic differentiation. Plug-and-play analysis tools for aerodynamics, propulsion, structures, trajectory design, and much more. ![Python](logo/Python.svg)
 
 ### Machine learning / Deep Learning
 
@@ -176,7 +178,7 @@ A curated list of repositories related to fluid dynamics.
 
 ### Benchmark
 
-*`TODO`*
+- [dionhaefner/pyhpc-benchmarks](https://github.com/dionhaefner/pyhpc-benchmarks):  A suite of benchmarks for CPU and GPU performance of the most popular high-performance libraries for Python ![Python](logo/Python.svg)
 
 ## 7. Reproducibility
 
