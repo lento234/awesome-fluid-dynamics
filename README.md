@@ -52,7 +52,7 @@ A curated list of repositories related to fluid dynamics.
 
 ### Books
 
-- Brunton, S., & Kutz, J. (2019). Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control. Cambridge: Cambridge University Press. [:memo:](doi.org/10.1017/9781108380690) [:book:](http://databookuw.com/)
+- Brunton, S., & Kutz, J. (2019). Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control. Cambridge: Cambridge University Press. [:memo:](doi.org/10.1017/9781108380690)
 
 ## 2. Computational fluid dynamics (CFD)
 
