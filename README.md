@@ -76,6 +76,7 @@ A curated list of repositories related to fluid dynamics.
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg) 
 - [deal.II](https://dealii.org/): An open source finite element library ![C++](logo/cpp.svg)
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake): Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM) ![Python](logo/Python.svg)
+- [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos):  Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. Modularity, extensibility and HPC are the main objectives. Kratos has BSD license and is written in C++ with extensive Python interface. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
 #### Finite volume methods (FVM)
 
