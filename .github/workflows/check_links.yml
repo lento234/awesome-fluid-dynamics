@@ -28,6 +28,3 @@ jobs:
         with:
           name: ab-results
           path: ab-results-README.md-filtered.json
-
-  notifications:
-    email: false
