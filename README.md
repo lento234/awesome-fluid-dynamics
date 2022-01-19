@@ -45,6 +45,7 @@ A curated list of repositories related to fluid dynamics.
 ### Notebooks
 - [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython): A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
 - [gpeyre/numerical-tours](https://github.com/gpeyre/numerical-tours): Numerical Tours of Signal Processing and other materials. ![MATLAB](logo/MATLAB.svg) ![Python](logo/Python.svg) ![Jupyter](logo/Jupyter.svg) ![julia](logo/julia.svg) ![R](logo/R.svg)
+- [jfavre/Visualization-training](https://github.com/jfavre/Visualization-training): The material used for the Scientific Visualization course, organized online by the Swiss National Supercomputing Centre (CSCS) on May 17-18, 2021 ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/jfavre/Visualization-training/search?l=jupyter-notebook)
 
 ### Lecture series
 - [Steve Brunton/Fluid Dynamics](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQWO3ESiccZmPssvUDFHL4M): Prof. Brunton's lecture series on Fluid dynamics. ![YouTube](logo/YouTube.svg)
