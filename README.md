@@ -127,6 +127,7 @@ A curated list of repositories related to fluid dynamics.
 - [google/jax-cfd](https://github.com/google/jax-cfd): Computational Fluid Dynamics in JAX. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/google/jax-cfd/search?l=jupyter-notebook)
 - [isl-org/DeepLagrangianFluids](https://github.com/isl-org/DeepLagrangianFluids): Lagrangian Fluid Simulation with Continuous Convolutions. ![Python](logo/Python.svg)
 - [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow): A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
+- [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde): MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution ![Python](logo/Python.svg)
 
 ## 3. Experimental fluid dynamics 
 
