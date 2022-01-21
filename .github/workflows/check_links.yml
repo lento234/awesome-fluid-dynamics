@@ -22,7 +22,7 @@ jobs:
       - name: Install Awesome Bot
         run: gem install awesome_bot
       - name: Run Awesome Bot
-        run: awesome_bot README.md --allow-redirect --allow-timeout -t 5
+        run: awesome_bot README.md --allow-redirect --allow-timeout -t 5 --request-delay 0.5
       - uses: actions/upload-artifact@v1
         if: failure()
         with:
