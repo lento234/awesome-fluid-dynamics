@@ -186,7 +186,7 @@ A curated list of repositories related to fluid dynamics.
 
 ## 7. Reproducibility
 
-- [iterative/dvc](https://github.com/iterative/dvc): Data Version Control | Git for Data & Models | ML Experiments Management. ![Python](logo/Python.svg) 
+- [iterative/dvc](https://github.com/iterative/dvc): Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg) 
 - [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg) 
 
 ## 8. Related links
