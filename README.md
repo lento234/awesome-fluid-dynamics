@@ -1,6 +1,6 @@
 # Awesome Fluid Dynamics
 [![Awesome](logo/awesome.svg)](https://github.com/sindresorhus/awesome#readme)
-![CI](https://github.com/lento234/awesome-fluid-dynamics/workflows/CI/badge.svg)
+![Links CI](https://img.shields.io/github/workflow/status/lento234/awesome-fluid-dynamics/CI?label=Links&style=flat-square)
 
 A curated list of repositories related to fluid dynamics. 
 
