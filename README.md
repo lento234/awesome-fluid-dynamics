@@ -4,7 +4,7 @@
 [![Awesome](logo/awesome.svg)](https://github.com/sindresorhus/awesome#readme)
 ![Links CI](https://img.shields.io/github/workflow/status/lento234/awesome-fluid-dynamics/CI?label=Links&style=flat-square)
 
-A curated list of repositories related to fluid dynamics. 
+A curated list of repositories related to fluid dynamics.
 
 *`Please send pull requests or raise issues to improve this list.`*
 
@@ -71,7 +71,7 @@ A curated list of repositories related to fluid dynamics.
 #### Finite element methods (FEM)
 
 - [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl): The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
-- [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg) 
+- [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx): Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [deal.II](https://dealii.org/): An open source finite element library ![C++](logo/cpp.svg)
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake): Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM) ![Python](logo/Python.svg)
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos):  Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. Modularity, extensibility and HPC are the main objectives. Kratos has BSD license and is written in C++ with extensive Python interface. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -127,7 +127,7 @@ A curated list of repositories related to fluid dynamics.
 - [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde): MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution ![Python](logo/Python.svg)
 
 
-## 3. Experimental fluid dynamics 
+## 3. Experimental fluid dynamics
 
 ### PIV / PTV
 
@@ -193,8 +193,8 @@ A curated list of repositories related to fluid dynamics.
 
 ## 7. Reproducibility
 
-- [iterative/dvc](https://github.com/iterative/dvc): Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg) 
-- [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg) 
+- [iterative/dvc](https://github.com/iterative/dvc): Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg)
+- [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg)
 
 
 ## 8. Related links
