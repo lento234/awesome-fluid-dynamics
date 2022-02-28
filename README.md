@@ -52,6 +52,7 @@ A curated list of repositories related to fluid dynamics.
 
 - Brunton, S., & Kutz, J. (2019). Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control. Cambridge: Cambridge University Press. [:memo:](https://doi.org/10.1017/9781108380690) [:book:](http://databookuw.com/)
 
+
 ## 2. Computational fluid dynamics (CFD)
 
 ### Meshing
@@ -64,7 +65,6 @@ A curated list of repositories related to fluid dynamics.
 - [inducer/meshpy](https://github.com/inducer/meshpy): 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [gmsh](https://en.wikipedia.org/wiki/Gmsh): A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
 - [CGAL/cgal](https://github.com/CGAL/cgal): The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
-
 
 ### Solvers
 
@@ -126,6 +126,7 @@ A curated list of repositories related to fluid dynamics.
 - [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow): A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
 - [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde): MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution ![Python](logo/Python.svg)
 
+
 ## 3. Experimental fluid dynamics 
 
 ### PIV / PTV
@@ -141,6 +142,7 @@ A curated list of repositories related to fluid dynamics.
 - [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en): Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
 - [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN): Perform PIV image pair match using deep conv neural network. ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
 
+
 ## 4. Post-processing and data analysis
 
 - [numpy/numpy](https://github.com/numpy/numpy): The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
@@ -152,6 +154,8 @@ A curated list of repositories related to fluid dynamics.
 - [Astroua/TurbuStat](https://github.com/Astroua/TurbuStat): Statistics of Turbulence Python Package. ![Python](logo/Python.svg)
 - [SURGroup/UQpy](https://github.com/SURGroup/UQpy): UQpy (Uncertainty Quantification with python) is a general purpose Python toolbox for modeling uncertainty in physical and mathematical systems. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/SURGroup/UQpy/search?l=jupyter-notebook)
 - [haller-group/LCStool](https://github.com/haller-group/LCStool): LCStool: LCS Tool is a computational engine for analyzing fluid flows by extracting their most influential material surfaces, Lagrangian Coherent Structures. ![MATLAB](logo/MATLAB.svg)
+
+
 ## 5. Visualization
 
 ### 2D visualization
@@ -173,6 +177,7 @@ A curated list of repositories related to fluid dynamics.
 - [Kitware/paraview](https://www.paraview.org/): An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 - [pyvista/pyvista](https://github.com/pyvista/pyvista): 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK) ![Python](logo/Python.svg)
 
+
 ## 6. Benchmarks and datasets
 
 ### Dataset
@@ -185,10 +190,12 @@ A curated list of repositories related to fluid dynamics.
 - [dionhaefner/pyhpc-benchmarks](https://github.com/dionhaefner/pyhpc-benchmarks):  A suite of benchmarks for CPU and GPU performance of the most popular high-performance libraries for Python ![Python](logo/Python.svg)
 - [su2code/TestCases](https://github.com/su2code/TestCases): An extensive collection of common test cases for SU2. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
+
 ## 7. Reproducibility
 
 - [iterative/dvc](https://github.com/iterative/dvc): Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg) 
 - [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx): Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg) 
+
 
 ## 8. Related links
 
