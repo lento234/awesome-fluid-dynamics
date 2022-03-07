@@ -114,6 +114,7 @@ A curated list of repositories related to fluid dynamics.
 - [team-ocean/veros](https://github.com/team-ocean/veros): The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
 - [CliMA/Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl): Julia software for fast, friendly, flexible, data-driven, ocean-flavored fluid dynamics on CPUs and GPUs ![julia](logo/julia.svg)
 - [gdeskos/DVMpp](https://github.com/gdeskos/DVMpp): 2D Discrete Vortex Method Code written in C++ ![C++](logo/cpp.svg)
+- [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics ![julia](logo/julia.svg)
 
 ### Machine learning / Deep Learning
 
