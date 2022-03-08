@@ -118,7 +118,8 @@ A curated list of repositories related to fluid dynamics.
 - [gdeskos/DVMpp](https://github.com/gdeskos/DVMpp): 2D Discrete Vortex Method Code written in C++ ![C++](logo/cpp.svg)
 - [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics ![julia](logo/julia.svg)
 - [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
-
+- [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
+ 
 ### Machine learning / Deep Learning
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde): Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
