@@ -119,7 +119,7 @@ A curated list of repositories related to fluid dynamics.
 - [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics ![julia](logo/julia.svg)
 - [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
 - [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
- 
+
 ### Machine learning / Deep Learning
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde): Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
@@ -170,7 +170,7 @@ A curated list of repositories related to fluid dynamics.
 - [3b1b/manim](https://github.com/3b1b/manim): Animation engine for explanatory math videos. ![Python](logo/Python.svg)
 - [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots): Matplotlib styles for scientific plotting. ![Python](logo/Python.svg)
 - [mwaskom/seaborn](https://github.com/mwaskom/seaborn): Statistical data visualization in Python ![Python](logo/Python.svg)
-- [lukelbd/proplot](https://github.com/lukelbd/proplot): :art: A succinct matplotlib wrapper for making beautiful, publication-quality graphics 
+- [lukelbd/proplot](https://github.com/lukelbd/proplot): :art: A succinct matplotlib wrapper for making beautiful, publication-quality graphics
 
 ### 3D visualization
 
