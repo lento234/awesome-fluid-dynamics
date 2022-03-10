@@ -84,6 +84,7 @@ A curated list of repositories related to fluid dynamics.
 - [cselab/aphros](https://github.com/cselab/aphros): Finite volume solver for incompressible multiphase flows with surface tension ![C++](logo/cpp.svg)
 - [code-saturne/code_saturne](https://github.com/code-saturne/code_saturne):  code_saturne public mirror ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg) ![Python](logo/Python.svg)
 - [DelNov/T-Flows](https://github.com/DelNov/T-Flows) - T-Flows (stands for Turbulent Flows) is a Computational Fluid Dynamics (CFD) program, originally developed at Delft University of Technology, the Netherlands. ![FORTRAN](logo/FORTRAN.svg)
+- [ucns3d-team/UCNS3D](https://github.com/ucns3d-team/UCNS3D) - Unstructured Compressible Navier Stokes 3D code (UCNS3D). ![FORTRAN](logo/FORTRAN.svg)
 
 #### Spectral methods
 
