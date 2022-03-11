@@ -2,7 +2,10 @@
 
 
 [![Awesome](logo/awesome.svg)](https://github.com/sindresorhus/awesome#readme)
-![Links CI](https://img.shields.io/github/workflow/status/lento234/awesome-fluid-dynamics/CI?label=Links&style=flat-square)
+![Links CI](https://img.shields.io/github/workflow/status/lento234/awesome-fluid-dynamics/CI?label=Links&style=flat-square&labelColor=black)
+![License](https://img.shields.io/github/license/lento234/awesome-fluid-dynamics?style=flat-square&color=blue&labelColor=000000)
+![Last commit](https://img.shields.io/github/last-commit/lento234/awesome-fluid-dynamics?style=flat-square&labelColor=000000)
+
 
 A curated list of repositories related to fluid dynamics.
 
