@@ -118,6 +118,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus) - EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
 - [uDALES/u-dales](https://github.com/uDALES/u-dales) - uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
+- [ladybug-tools/butterfly](https://github.com/ladybug-tools/butterfly) - :butterfly: A light python API for creating and running OpenFoam cases for CFD simulation. ![Python](logo/Python.svg)
 
 ### Shallow Water / Ocean Dynamics
 
