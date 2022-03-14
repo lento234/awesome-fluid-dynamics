@@ -1,7 +1,5 @@
-![Awesome](logo/awesome-logo.svg)
+# ![Awesome](logo/awesome-logo.svg) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-
-[![Awesome](logo/awesome.svg)](https://github.com/sindresorhus/awesome#readme)
 ![Links CI](https://img.shields.io/github/workflow/status/lento234/awesome-fluid-dynamics/CI?label=Links&style=flat-square&labelColor=black)
 ![License](https://img.shields.io/github/license/lento234/awesome-fluid-dynamics?style=flat-square&color=blue&labelColor=000000)
 ![Last commit](https://img.shields.io/github/last-commit/lento234/awesome-fluid-dynamics?style=flat-square&labelColor=000000)
@@ -13,41 +11,41 @@ A curated list of repositories related to fluid dynamics.
 
 ## Contents
 
-- [Contents](#contents)
-- [1. Educational](#1-educational)
+- [Educational](#educational)
   - [Notebooks](#notebooks)
   - [Lecture series](#lecture-series)
   - [Books](#books)
-- [2. Computational fluid dynamics (CFD)](#2-computational-fluid-dynamics-cfd)
-  - [Meshing](#meshing)
-  - [Solvers](#solvers)
-    - [Finite element methods (FEM)](#finite-element-methods-fem)
-    - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
-    - [Spectral methods](#spectral-methods)
-    - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
-    - [Other techniques](#other-techniques)
-  - [Machine learning / Deep Learning](#machine-learning--deep-learning)
-- [3. Experimental fluid dynamics](#3-experimental-fluid-dynamics)
+- [Meshing](#meshing)
+- [Computational fluid dynamics](#computational-fluid-dynamics)
+  - [Finite element methods (FEM)](#finite-element-methods-fem)
+  - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
+  - [Spectral methods](#spectral-methods)
+  - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
+  - [Other techniques](#other-techniques)
+- [Machine Learning / Deep Learning](#machine-learning--deep-learning)
+- [Experimental Fluid Dynamics](#experimental-fluid-dynamics)
   - [PIV / PTV](#piv--ptv)
-  - [Machine learning](#machine-learning)
-- [4. Post-processing and data analysis](#4-post-processing-and-data-analysis)
-- [5. Visualization](#5-visualization)
+  - [ML / Optical Flow](#ml--optical-flow)
+- [Post-processing and Data Analysis](#post-processing-and-data-analysis)
+- [Visualization](#visualization)
   - [2D visualization](#2d-visualization)
   - [3D visualization](#3d-visualization)
-- [6. Benchmarks and datasets](#6-benchmarks-and-datasets)
+- [Benchmarks and datasets](#benchmarks-and-datasets)
   - [Dataset](#dataset)
   - [Benchmark](#benchmark)
-- [7. Reproducibility](#7-reproducibility)
-- [8. Related links](#8-related-links)
+- [Reproducibility](#reproducibility)
+- [Related Contents](#related-contents)
 
-## 1. Educational
+## Educational
 
 ### Notebooks
+
 - [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython) - A sequence of Jupyter notebooks featuring the "12 Steps to Navier-Stokes" ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/barbagroup/CFDPython/search?l=jupyter-notebook)
 - [gpeyre/numerical-tours](https://github.com/gpeyre/numerical-tours) - Numerical Tours of Signal Processing and other materials. ![MATLAB](logo/MATLAB.svg) ![Python](logo/Python.svg) ![Jupyter](logo/Jupyter.svg) ![julia](logo/julia.svg) ![R](logo/R.svg)
 - [jfavre/Visualization-training](https://github.com/jfavre/Visualization-training) - The material used for the Scientific Visualization course, organized online by the Swiss National Supercomputing Centre (CSCS) on May 17-18, 2021 ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/jfavre/Visualization-training/search?l=jupyter-notebook)
 
 ### Lecture series
+
 - [Steve Brunton/Fluid Dynamics](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQWO3ESiccZmPssvUDFHL4M) - Prof. Brunton's lecture series on Fluid dynamics. ![YouTube](logo/YouTube.svg)
 - [Barry Belmont/NSF Fluid Mechanics Series](https://www.youtube.com/playlist?list=PL0EC6527BE871ABA3) - A collection of NFS Fluid Mechanics lecutre series from mid 20th century. ![YouTube](logo/YouTube.svg)
 
@@ -57,9 +55,7 @@ A curated list of repositories related to fluid dynamics.
 - Castro, I. P., & Vanderwel, C. (2021). Turbulent Flows: An Introduction. IOP Publishing. [DOI :memo:](https://doi.org/10.1088/978-0-7503-3619-2) [Book :book:](https://github.com/cvanderwel/TurbulentFlows)
 
 
-## 2. Computational fluid dynamics (CFD)
-
-### Meshing
+## Meshing
 
 - [nschloe/optimesh](https://github.com/nschloe/optimesh) - Mesh optimization, mesh smoothing. ![Python](logo/Python.svg)
 - [nschloe/pygmsh](https://github.com/nschloe/pygmsh) - Gmsh for Python ![Python](logo/Python.svg)
@@ -70,9 +66,9 @@ A curated list of repositories related to fluid dynamics.
 - [gmsh](https://en.wikipedia.org/wiki/Gmsh) - A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
 - [CGAL/cgal](https://github.com/CGAL/cgal) - The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
 
-### Solvers
+## Computational fluid dynamics
 
-#### Finite element methods (FEM)
+### Finite element methods (FEM)
 
 - [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl) - The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) - Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -80,7 +76,7 @@ A curated list of repositories related to fluid dynamics.
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) - Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM) ![Python](logo/Python.svg)
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) - Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. Modularity, extensibility and HPC are the main objectives. Kratos has BSD license and is written in C++ with extensive Python interface. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
-#### Finite volume methods (FVM)
+### Finite volume methods (FVM)
 
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) - OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![C++](logo/cpp.svg)
 - [su2code/SU2](https://github.com/su2code/SU2) - SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -89,18 +85,18 @@ A curated list of repositories related to fluid dynamics.
 - [DelNov/T-Flows](https://github.com/DelNov/T-Flows) - T-Flows (stands for Turbulent Flows) is a Computational Fluid Dynamics (CFD) program, originally developed at Delft University of Technology, the Netherlands. ![FORTRAN](logo/FORTRAN.svg)
 - [ucns3d-team/UCNS3D](https://github.com/ucns3d-team/UCNS3D) - Unstructured Compressible Navier Stokes 3D code (UCNS3D). ![FORTRAN](logo/FORTRAN.svg)
 
-#### Spectral methods
+### Spectral methods
 
 - [DedalusProject/dedalus](https://github.com/DedalusProject/dedalus) - A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
 - [FourierFlows/FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl) - Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia](logo/julia.svg)
 - [Nek5000/Nek5000](https://github.com/Nek5000/Nek5000) - NEK5000 is an spectral element CFD code developed at the Mathematics and Computer Science Division of Argonne National Laboratory. ![FORTRAN](logo/FORTRAN.svg)
 - [spectralDNS/shenfun](https://github.com/spectralDNS/shenfun) - High performance computational platform in Python for the spectral Galerkin method ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
 
-#### Lattice Boltzmann methods (LBM)
+### Lattice Boltzmann methods (LBM)
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann) - A 2D Lattice Boltzmann program ![C++](logo/cpp.svg)
 
-#### Other techniques
+### Other techniques
 
 - [jostbr/shallow-water](https://github.com/jostbr/shallow-water) - Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
@@ -126,7 +122,7 @@ A curated list of repositories related to fluid dynamics.
 - [NaluCFD/Nalu](https://github.com/NaluCFD/Nalu) - Nalu: a generalized unstructured massively parallel low Mach flow code designed to support a variety of open applications of interest built on the Sierra Toolkit and Trilinos solver Tpetra solver stack. ![C++](logo/cpp.svg)
 - [lesgo-jhu/lesgo](https://github.com/lesgo-jhu/lesgo) - The Large-Eddy Simulation framework from the Turbulence Research Group at Johns Hopkins University ![FORTRAN](logo/FORTRAN.svg)
 
-### Machine learning / Deep Learning
+## Machine Learning / Deep Learning
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) - Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
 - [SciML/NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl) - Physics-Informed Neural Networks (PINN) and Deep BSDE Solvers of Differential Equations for Scientific Machine Learning (SciML) accelerated simulation. ![julia](logo/julia.svg)
@@ -138,23 +134,23 @@ A curated list of repositories related to fluid dynamics.
 - [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde) - MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution ![Python](logo/Python.svg)
 
 
-## 3. Experimental fluid dynamics
+## Experimental Fluid Dynamics
 
 ### PIV / PTV
 
 - [JHU-NI-LAB/OpenLPT_Shake-The-Box](https://github.com/JHU-NI-LAB/OpenLPT_Shake-The-Box) - Open-source C++ code for Shake-the-box, particle tracking algorithm ![C++](logo/cpp.svg) ![MATLAB](logo/MATLAB.svg)
 - [OpenPTV/openptv](https://github.com/openptv/openptv) - OpenPTV - open source 3D-PTV software ![C++](logo/cpp.svg)
 - [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python) - OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
-- [OpenPTV/pyptv](https://github.com/openptv/pyptv) Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
+- [OpenPTV/pyptv](https://github.com/openptv/pyptv) - Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
 
-### Machine learning
+### ML / Optical Flow
 
 - [erizmr/UnLiteFlowNet-PIV](https://github.com/erizmr/UnLiteFlowNet-PIV) - Unsupervised learning of Particle Image Velocimetry. (ISC 2020) ![Python](logo/Python.svg)
 - [shengzesnail/PIV-LiteFlowNet-en](https://github.com/shengzesnail/PIV-LiteFlowNet-en) - Particle image velocimetry via a deep neural network (LiteFlowNet) ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg)
 - [yongleex/PIV-DCNN](https://github.com/yongleex/PIV-DCNN) - Perform PIV image pair match using deep conv neural network. ![MATLAB](logo/MATLAB.svg) ![C++](logo/cpp.svg)
 
 
-## 4. Post-processing and data analysis
+## Post-processing and Data Analysis
 
 - [numpy/numpy](https://github.com/numpy/numpy) - The fundamental package for scientific computing with Python. ![Python](logo/Python.svg)
 - [mathLab/PyDMD](https://github.com/mathLab/PyDMD) - Python Dynamic Mode Decomposition ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/mathLab/PyDMD/search?l=jupyter-notebook)
@@ -167,7 +163,7 @@ A curated list of repositories related to fluid dynamics.
 - [haller-group/LCStool](https://github.com/haller-group/LCStool) - LCStool: LCS Tool is a computational engine for analyzing fluid flows by extracting their most influential material surfaces, Lagrangian Coherent Structures. ![MATLAB](logo/MATLAB.svg)
 
 
-## 5. Visualization
+## Visualization
 
 ### 2D visualization
 
@@ -190,7 +186,7 @@ A curated list of repositories related to fluid dynamics.
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) - 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK) ![Python](logo/Python.svg)
 
 
-## 6. Benchmarks and datasets
+## Benchmarks and datasets
 
 ### Dataset
 
@@ -203,13 +199,13 @@ A curated list of repositories related to fluid dynamics.
 - [su2code/TestCases](https://github.com/su2code/TestCases) - An extensive collection of common test cases for SU2. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
 
-## 7. Reproducibility
+## Reproducibility
 
 - [iterative/dvc](https://github.com/iterative/dvc) - Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg)
 - [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx) - Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg)
 
 
-## 8. Related links
+## Related Contents
 
 - [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv) - A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](logo/awesome.svg)
 - [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing) - Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](logo/awesome.svg)
