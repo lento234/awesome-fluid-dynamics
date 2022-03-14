@@ -11,16 +11,26 @@ A curated list of repositories related to fluid dynamics.
 
 - [Educational](#educational)
   - [Notebooks](#notebooks)
-  - [Lecture series](#lecture-series)
+  - [Lecture Series](#lecture-series)
   - [Books](#books)
 - [Meshing](#meshing)
-- [Computational fluid dynamics](#computational-fluid-dynamics)
-  - [Finite element methods (FEM)](#finite-element-methods-fem)
-  - [Finite volume methods (FVM)](#finite-volume-methods-fvm)
-  - [Spectral methods](#spectral-methods)
-  - [Lattice Boltzmann methods (LBM)](#lattice-boltzmann-methods-lbm)
+- [Computational Fluid Dynamics](#computational-fluid-dynamics)
+  - [Finite Element Methods (FEM)](#finite-element-methods-fem)
+  - [Finite Volume Methods (FVM)](#finite-volume-methods-fvm)
+  - [Spectral Methods](#spectral-methods)
+  - [Vortex Methods / Panel Methods / Blade Element Methods](#vortex-methods--panel-methods--blade-element-methods)
+  - [Immersed Boundary Methods (IBM)](#immersed-boundary-methods-ibm)
+  - [Building Energy and Urban Environments](#building-energy-and-urban-environments)
+  - [Shallow Water / Ocean Dynamics](#shallow-water--ocean-dynamics)
+  - [Lattice Boltzmann Methods (LBM)](#lattice-boltzmann-methods-lbm)
+  - [Design and Optimization](#design-and-optimization)
+  - [Coupling](#coupling)
+  - [Chemical Kinetics](#chemical-kinetics)
+  - [Supersonic / Hypersonic Flow](#supersonic--hypersonic-flow)
+  - [Differential programming](#differential-programming)
+  - [Neural Networks for PDE](#neural-networks-for-pde)
+  - [Graphics](#graphics)
   - [Other techniques](#other-techniques)
-- [Machine Learning / Deep Learning](#machine-learning--deep-learning)
 - [Experimental Fluid Dynamics](#experimental-fluid-dynamics)
   - [PIV / PTV](#piv--ptv)
   - [ML / Optical Flow](#ml--optical-flow)
@@ -33,7 +43,7 @@ A curated list of repositories related to fluid dynamics.
   - [Benchmark](#benchmark)
 - [Reproducibility](#reproducibility)
 - [Community](#community)
-- [Related Contents](#related-contents)
+- [Related Topics](#related-topics)
 
 ## Educational
 
@@ -43,7 +53,7 @@ A curated list of repositories related to fluid dynamics.
 - [gpeyre/numerical-tours](https://github.com/gpeyre/numerical-tours) - Numerical Tours of Signal Processing and other materials. ![MATLAB](logo/MATLAB.svg) ![Python](logo/Python.svg) ![Jupyter](logo/Jupyter.svg) ![julia](logo/julia.svg) ![R](logo/R.svg)
 - [jfavre/Visualization-training](https://github.com/jfavre/Visualization-training) - The material used for the Scientific Visualization course, organized online by the Swiss National Supercomputing Centre (CSCS) on May 17-18, 2021 ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/jfavre/Visualization-training/search?l=jupyter-notebook)
 
-### Lecture series
+### Lecture Series
 
 - [Steve Brunton/Fluid Dynamics](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQWO3ESiccZmPssvUDFHL4M) - Prof. Brunton's lecture series on Fluid dynamics. ![YouTube](logo/YouTube.svg)
 - [Barry Belmont/NSF Fluid Mechanics Series](https://www.youtube.com/playlist?list=PL0EC6527BE871ABA3) - A collection of NFS Fluid Mechanics lecutre series from mid 20th century. ![YouTube](logo/YouTube.svg)
@@ -65,9 +75,10 @@ A curated list of repositories related to fluid dynamics.
 - [gmsh](https://en.wikipedia.org/wiki/Gmsh) - A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities ![C++](logo/cpp.svg) ![Python](logo/Python.svg) ![julia](logo/julia.svg)
 - [CGAL/cgal](https://github.com/CGAL/cgal) - The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. ![C++](logo/cpp.svg)
 
-## Computational fluid dynamics
 
-### Finite element methods (FEM)
+## Computational Fluid Dynamics
+
+### Finite Element Methods (FEM)
 
 - [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl) - The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
 - [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) - Next generation FEniCS problem solving environment ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -75,7 +86,7 @@ A curated list of repositories related to fluid dynamics.
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) - Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM) ![Python](logo/Python.svg)
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) - Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. Modularity, extensibility and HPC are the main objectives. Kratos has BSD license and is written in C++ with extensive Python interface. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 
-### Finite volume methods (FVM)
+### Finite Volume Methods (FVM)
 
 - [OpenFOAM/OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) - OpenFOAM is a free, open source computational fluid dynamics (CFD) software package released by the OpenFOAM Foundation. ![C++](logo/cpp.svg)
 - [su2code/SU2](https://github.com/su2code/SU2) - SU2: An Open-Source Suite for Multiphysics Simulation and Design  ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -84,53 +95,83 @@ A curated list of repositories related to fluid dynamics.
 - [DelNov/T-Flows](https://github.com/DelNov/T-Flows) - T-Flows (stands for Turbulent Flows) is a Computational Fluid Dynamics (CFD) program, originally developed at Delft University of Technology, the Netherlands. ![FORTRAN](logo/FORTRAN.svg)
 - [ucns3d-team/UCNS3D](https://github.com/ucns3d-team/UCNS3D) - Unstructured Compressible Navier Stokes 3D code (UCNS3D). ![FORTRAN](logo/FORTRAN.svg)
 
-### Spectral methods
+### Spectral Methods
 
 - [DedalusProject/dedalus](https://github.com/DedalusProject/dedalus) - A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
 - [FourierFlows/FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl) - Tools for building fast, hackable, pseudospectral partial differential equation solvers on periodic domains ![julia](logo/julia.svg)
 - [Nek5000/Nek5000](https://github.com/Nek5000/Nek5000) - NEK5000 is an spectral element CFD code developed at the Mathematics and Computer Science Division of Argonne National Laboratory. ![FORTRAN](logo/FORTRAN.svg)
 - [spectralDNS/shenfun](https://github.com/spectralDNS/shenfun) - High performance computational platform in Python for the spectral Galerkin method ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/spectralDNS/shenfun/search?l=jupyter-notebook)
 
-### Lattice Boltzmann methods (LBM)
+### Vortex Methods / Panel Methods / Blade Element Methods
+
+- [vortexmethods/VM2D](https://github.com/vortexmethods/VM2D) - VM2D: Open-Source Code for 2D Flow Simulation by Using Meshless Lagrangian Vortex Methods ![C++](logo/cpp.svg)
+- [markstock/vic2d](https://github.com/markstock/vic2d) - Two-dimensional semi-Lagrangian vortex method for very low viscosity fluid simulation ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg)
+- [gdeskos/DVMpp](https://github.com/gdeskos/DVMpp) - 2D Discrete Vortex Method Code written in C++ ![C++](logo/cpp.svg)
+- [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics ![julia](logo/julia.svg)
+
+### Immersed Boundary Methods (IBM)
+
+- [cwrowley/ibpm](https://github.com/cwrowley/ibpm) - Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
+- [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM) - PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures ![C++](logo/cpp.svg)
+
+### Building Energy and Urban Environments
+
+- [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus) - EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
+- [uDALES/u-dales](https://github.com/uDALES/u-dales) - uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
+
+### Shallow Water / Ocean Dynamics
+
+- [jostbr/shallow-water](https://github.com/jostbr/shallow-water) - Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
+- [team-ocean/veros](https://github.com/team-ocean/veros) - The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
+- [CliMA/Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl) - Julia software for fast, friendly, flexible, data-driven, ocean-flavored fluid dynamics on CPUs and GPUs ![julia](logo/julia.svg)
+
+### Lattice Boltzmann Methods (LBM)
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann) - A 2D Lattice Boltzmann program ![C++](logo/cpp.svg)
 
-### Other techniques
+### Design and Optimization
 
-- [jostbr/shallow-water](https://github.com/jostbr/shallow-water) - Python model solving the shallow water equations (linear momentum, nonlinear continuity) ![Python](logo/Python.svg)
-- [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
-- [PyFR/PyFR](https://github.com/PyFR/PyFR) - Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
-- [precice/precice](https://github.com/precice/precice) - A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
-- [cwrowley/ibpm](https://github.com/cwrowley/ibpm) - Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
-- [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM) - PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures ![C++](logo/cpp.svg)
-- [vortexmethods/VM2D](https://github.com/vortexmethods/VM2D) - VM2D: Open-Source Code for 2D Flow Simulation by Using Meshless Lagrangian Vortex Methods ![C++](logo/cpp.svg)
-- [markstock/vic2d](https://github.com/markstock/vic2d) - Two-dimensional semi-Lagrangian vortex method for very low viscosity fluid simulation ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg)
-- [Cantera/cantera](https://github.com/Cantera/cantera) - Chemical kinetics, thermodynamics, and transport tool suite ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
-- [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus) - EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
-- [uDALES/u-dales](https://github.com/uDALES/u-dales) - uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling ![FORTRAN](logo/FORTRAN.svg)
-- [taichi-dev/taichi](https://github.com/taichi-dev/taichi) - Parallel programming for everyone. ![Python](logo/Python.svg)
-- [DARcorporation/xfoil-python](https://github.com/DARcorporation/xfoil-python) - Stripped down version of XFOIL as compiled python module ![Python](logo/Python.svg)
 - [mdolab/dafoam](https://github.com/mdolab/dafoam) - DAFoam: Discrete Adjoint with OpenFOAM for High-fidelity Gradient-based Design Optimization ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox) - Aircraft design optimization made fast through modern automatic differentiation. Plug-and-play analysis tools for aerodynamics, propulsion, structures, trajectory design, and much more. ![Python](logo/Python.svg)
-- [team-ocean/veros](https://github.com/team-ocean/veros) - The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
-- [CliMA/Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl) - Julia software for fast, friendly, flexible, data-driven, ocean-flavored fluid dynamics on CPUs and GPUs ![julia](logo/julia.svg)
-- [gdeskos/DVMpp](https://github.com/gdeskos/DVMpp) - 2D Discrete Vortex Method Code written in C++ ![C++](logo/cpp.svg)
-- [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics ![julia](logo/julia.svg)
-- [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
-- [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
-- [NaluCFD/Nalu](https://github.com/NaluCFD/Nalu) - Nalu: a generalized unstructured massively parallel low Mach flow code designed to support a variety of open applications of interest built on the Sierra Toolkit and Trilinos solver Tpetra solver stack. ![C++](logo/cpp.svg)
-- [lesgo-jhu/lesgo](https://github.com/lesgo-jhu/lesgo) - The Large-Eddy Simulation framework from the Turbulence Research Group at Johns Hopkins University ![FORTRAN](logo/FORTRAN.svg)
+- [DARcorporation/xfoil-python](https://github.com/DARcorporation/xfoil-python) - Stripped down version of XFOIL as compiled python module ![Python](logo/Python.svg)
 
-## Machine Learning / Deep Learning
+### Coupling
+
+- [precice/precice](https://github.com/precice/precice) - A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ![C++](logo/cpp.svg)
+
+### Chemical Kinetics
+
+- [Cantera/cantera](https://github.com/Cantera/cantera) - Chemical kinetics, thermodynamics, and transport tool suite ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+
+### Supersonic / Hypersonic Flow
+
+- [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
+
+### Differential programming
+
+- [taichi-dev/taichi](https://github.com/taichi-dev/taichi) - Parallel programming for everyone. ![Python](logo/Python.svg)
+- [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) - A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
+- [google/jax-cfd](https://github.com/google/jax-cfd) - Computational Fluid Dynamics in JAX. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/google/jax-cfd/search?l=jupyter-notebook)
+
+### Neural Networks for PDE
 
 - [lululxvi/deepxde](https://github.com/lululxvi/deepxde) - Deep learning library for solving differential equations and more. ![Python](logo/Python.svg)
 - [SciML/NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl) - Physics-Informed Neural Networks (PINN) and Deep BSDE Solvers of Differential Equations for Scientific Machine Learning (SciML) accelerated simulation. ![julia](logo/julia.svg)
 - [google/neural-tangents](https://github.com/google/neural-tangents) - Fast and Easy Infinite Neural Networks in Python. ![Python](logo/Python.svg)
-- [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch) - A highly efficient and modular implementation of Gaussian Processes in PyTorch. ![Python](logo/Python.svg)
-- [google/jax-cfd](https://github.com/google/jax-cfd) - Computational Fluid Dynamics in JAX. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/google/jax-cfd/search?l=jupyter-notebook)
 - [isl-org/DeepLagrangianFluids](https://github.com/isl-org/DeepLagrangianFluids) - Lagrangian Fluid Simulation with Continuous Convolutions. ![Python](logo/Python.svg)
-- [tum-pbs/PhiFlow](https://github.com/tum-pbs/PhiFlow) - A differentiable PDE solving framework for machine learning. ![Python](logo/Python.svg)
 - [maxjiang93/space_time_pde](https://github.com/maxjiang93/space_time_pde) - MeshfreeFlowNet: Physical Constrained Space Time Super-Resolution ![Python](logo/Python.svg)
+
+### Graphics
+
+- [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
+
+### Other techniques
+
+- [PyFR/PyFR](https://github.com/PyFR/PyFR) - Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
+- [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
+- [NaluCFD/Nalu](https://github.com/NaluCFD/Nalu) - Nalu: a generalized unstructured massively parallel low Mach flow code designed to support a variety of open applications of interest built on the Sierra Toolkit and Trilinos solver Tpetra solver stack. ![C++](logo/cpp.svg)
+- [lesgo-jhu/lesgo](https://github.com/lesgo-jhu/lesgo) - The Large-Eddy Simulation framework from the Turbulence Research Group at Johns Hopkins University ![FORTRAN](logo/FORTRAN.svg)
+- [cornellius-gp/gpytorch](https://github.com/cornellius-gp/gpytorch) - A highly efficient and modular implementation of Gaussian Processes in PyTorch. ![Python](logo/Python.svg)
 
 
 ## Experimental Fluid Dynamics
@@ -209,7 +250,8 @@ A curated list of repositories related to fluid dynamics.
 - [CFD Online Forum](https://www.cfd-online.com/Forums/) - A free community for everyone interested in Computational Fluid Dynamics.
 - [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*.
 
-## Related Contents
+
+## Related Topics
 
 - [alexlib/awesome_piv](https://github.com/alexlib/awesome_piv) - A curated list of repositories related to PIV (particle image velocimetry). ![Awesome](logo/awesome.svg)
 - [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing) - Curated list of awesome software for numerical analysis and scientific computing. ![Awesome](logo/awesome.svg)
