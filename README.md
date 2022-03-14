@@ -9,7 +9,6 @@ A curated list of repositories related to fluid dynamics.
 
 ## Contents
 
-- [Contents](#contents)
 - [Educational](#educational)
   - [Notebooks](#notebooks)
   - [Lecture Series](#lecture-series)
