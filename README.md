@@ -176,7 +176,7 @@ A curated list of repositories related to fluid dynamics.
 - [3b1b/manim](https://github.com/3b1b/manim): Animation engine for explanatory math videos. ![Python](logo/Python.svg)
 - [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots): Matplotlib styles for scientific plotting. ![Python](logo/Python.svg)
 - [mwaskom/seaborn](https://github.com/mwaskom/seaborn): Statistical data visualization in Python ![Python](logo/Python.svg)
-- [lukelbd/proplot](https://github.com/lukelbd/proplot): :art: A succinct matplotlib wrapper for making beautiful, publication-quality graphics
+- [lukelbd/proplot](https://github.com/lukelbd/proplot): :art: A succinct matplotlib wrapper for making beautiful, publication-quality graphics ![Python](logo/Python.svg)
 
 ### 3D visualization
 
