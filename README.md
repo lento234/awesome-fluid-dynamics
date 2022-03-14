@@ -146,7 +146,7 @@ A curated list of repositories related to fluid dynamics.
 ### Supersonic / Hypersonic Flow
 
 - [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
-
+- [sergeas67/OpenHyperFLOW2D](https://github.com/sergeas67/OpenHyperFLOW2D) - 2D (flat/axisymmetrical) transient viscous compressible multicomponent sub/trans/supersonic reacting gas flow with RANS/URANS turbulence models. ![C++](logo/cpp.svg) 
 ### Differential programming
 
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi) - Parallel programming for everyone. ![Python](logo/Python.svg)
