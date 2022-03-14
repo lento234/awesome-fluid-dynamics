@@ -203,9 +203,11 @@ A curated list of repositories related to fluid dynamics.
 - [iterative/dvc](https://github.com/iterative/dvc) - Data Version Control, Git for Data & Models, ML Experiments Management. ![Python](logo/Python.svg)
 - [sphinx-doc/sphinx](https://github.com/sphinx-doc/sphinx) - Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects ![Python](logo/Python.svg)
 
+
 ## Community
 
 - [CFD Online Forum](https://www.cfd-online.com/Forums/) - A free community for everyone interested in Computational Fluid Dynamics.
+- [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*.
 
 ## Related Contents
 
