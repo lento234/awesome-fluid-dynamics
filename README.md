@@ -226,7 +226,7 @@ A curated list of repositories related to fluid dynamics.
 - [QuantStack/ipygany](https://github.com/QuantStack/ipygany) - 3-D Scientific Visualization in the Jupyter Notebook. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/QuantStack/ipygany/search?l=jupyter-notebook)
 - [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) -  Interactive Jupyter widgets to visualize images, point sets, and meshes in 2D and 3D. ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/InsightSoftwareConsortium/itkwidgets/search?l=jupyter-notebook)
 - [NVIDIA/ipyparaview](https://github.com/NVIDIA/ipyparaview) - iPython widget for server-side ParaView rendering in Jupyter. ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/NVIDIA/ipyparaview/search?l=jupyter-notebook)
-- [Kitware/Vtk](https://gitlab.kitware.com/vtk/vtk) - Visualization Toolkit ![C++](logo/cpp.svg)
+- [Kitware/Vtk](https://gitlab.kitware.com/vtk/vtk) - Visualization Toolkit. ![C++](logo/cpp.svg)
 - [Kitware/paraview](https://www.paraview.org/) - An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) - 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK). ![Python](logo/Python.svg)
 
