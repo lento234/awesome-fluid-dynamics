@@ -113,7 +113,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [cwrowley/ibpm](https://github.com/cwrowley/ibpm) - Immersed Boundary Projection Method (IBPM) ![C++](logo/cpp.svg)
 - [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM) - PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures ![C++](logo/cpp.svg)
-
+- [barbagroup/cuIBM](https://github.com/barbagroup/cuIBM) - cuIBM: a GPU-based immersed boundary method code. ![C++](logo/cpp.svg)
 ### Building Energy and Urban Environments
 
 - [NREL/EnergyPlus](https://github.com/NREL/EnergyPlus) - EnergyPlus™ is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings. ![C++](logo/cpp.svg)
