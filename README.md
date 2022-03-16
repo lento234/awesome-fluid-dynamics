@@ -30,15 +30,15 @@ A curated list of repositories related to fluid dynamics.
   - [Differential programming](#differential-programming)
   - [Neural Networks for PDE](#neural-networks-for-pde)
   - [Graphics](#graphics)
-  - [Other techniques](#other-techniques)
+  - [Other Techniques](#other-techniques)
 - [Experimental Fluid Dynamics](#experimental-fluid-dynamics)
   - [PIV / PTV](#piv--ptv)
   - [ML / Optical Flow](#ml--optical-flow)
 - [Post-processing and Data Analysis](#post-processing-and-data-analysis)
 - [Visualization](#visualization)
-  - [2D visualization](#2d-visualization)
-  - [3D visualization](#3d-visualization)
-- [Benchmarks and datasets](#benchmarks-and-datasets)
+  - [2D Visualization](#2d-visualization)
+  - [3D Visualization](#3d-visualization)
+- [Benchmarks and Datasets](#benchmarks-and-datasets)
   - [Dataset](#dataset)
   - [Benchmark](#benchmark)
 - [Reproducibility](#reproducibility)
@@ -148,6 +148,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [matteobernardini/STREAmS](https://github.com/matteobernardini/STREAmS) - STREAmS performs Direct Numerical Simulations of compressible turbulent flows in Cartesian geometry solving the unsteady, fully compressible Navier-Stokes equations for a perfect gas. ![FORTRAN](logo/FORTRAN.svg)
 - [sergeas67/OpenHyperFLOW2D](https://github.com/sergeas67/OpenHyperFLOW2D) - 2D (flat/axisymmetrical) transient viscous compressible multicomponent sub/trans/supersonic reacting gas flow with RANS/URANS turbulence models. ![C++](logo/cpp.svg)
+
 ### Differential programming
 
 - [taichi-dev/taichi](https://github.com/taichi-dev/taichi) - Parallel programming for everyone. ![Python](logo/Python.svg)
@@ -166,7 +167,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile) ![JavaScript](logo/JavaScript.svg)
 
-### Other techniques
+### Other Techniques
 
 - [PyFR/PyFR](https://github.com/PyFR/PyFR) - Framework for solving advection-diffusion type problems on streaming architectures using the Flux Reconstruction approach of Huynh. ![Python](logo/Python.svg)
 - [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) - A high-order finite-difference code for compressible hydrodynamic flows with magnetic fields and particles ![FORTRAN](logo/FORTRAN.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/pencil-code/pencil-code/search?l=jupyter-notebook)
@@ -206,7 +207,7 @@ A curated list of repositories related to fluid dynamics.
 
 ## Visualization
 
-### 2D visualization
+### 2D Visualization
 
 - [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) - matplotlib: plotting with Python ![Python](logo/Python.svg)
 - [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) - Image processing in Python ![Python](logo/Python.svg)
@@ -215,7 +216,7 @@ A curated list of repositories related to fluid dynamics.
 - [mwaskom/seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization in Python ![Python](logo/Python.svg)
 - [lukelbd/proplot](https://github.com/lukelbd/proplot) - :art: A succinct matplotlib wrapper for making beautiful, publication-quality graphics ![Python](logo/Python.svg)
 
-### 3D visualization
+### 3D Visualization
 
 - [K3D-tools/K3D-jupyter](https://github.com/K3D-tools/K3D-jupyter) - K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). ![Python](logo/Python.svg) ![JavaScript](logo/JavaScript.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/K3D-tools/K3D-jupyter/search?l=jupyter-notebook)
 - [sciapp/gr](https://github.com/sciapp/gr) - GR framework: a graphics library for visualisation applications ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
@@ -227,14 +228,14 @@ A curated list of repositories related to fluid dynamics.
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) - 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK) ![Python](logo/Python.svg)
 
 
-## Benchmarks and datasets
+## Benchmarks and Datasets
 
-### Dataset
+### Datasets
 
 - [shengzesnail/PIV_dataset](https://github.com/shengzesnail/PIV_dataset) - PIV dataset ![MATLAB](logo/MATLAB.svg)
 - [idies/pyJHTDB](https://github.com/idies/pyJHTDB) - Python wrapper for the Johns Hopkins turbulence database library. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/idies/pyJHTDB/search?l=jupyter-notebook)
 
-### Benchmark
+### Benchmarks
 
 - [dionhaefner/pyhpc-benchmarks](https://github.com/dionhaefner/pyhpc-benchmarks) - A suite of benchmarks for CPU and GPU performance of the most popular high-performance libraries for Python ![Python](logo/Python.svg)
 - [su2code/TestCases](https://github.com/su2code/TestCases) - An extensive collection of common test cases for SU2. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
