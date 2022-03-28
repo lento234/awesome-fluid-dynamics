@@ -39,7 +39,7 @@ A curated list of repositories related to fluid dynamics.
   - [2D Visualization](#2d-visualization)
   - [3D Visualization](#3d-visualization)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
-  - [Dataset](#dataset)
+  - [Datasets](#datasets)
   - [Benchmark](#benchmark)
 - [Reproducibility](#reproducibility)
 - [Community](#community)
