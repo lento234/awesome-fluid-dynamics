@@ -7,6 +7,11 @@ A curated list of repositories related to fluid dynamics.
 
 *`Please send pull requests or raise issues to improve this list.`*
 
+    Big whirls have little whirls that feed on their velocity,
+    and little whirls have lesser whirls and so on to viscosity.
+        
+        -Lewis F. Richardson (Weather Prediction by Numerical Process, p. 66)
+
 ## Contents
 
 - [Educational](#educational)
