@@ -170,6 +170,7 @@ A curated list of repositories related to fluid dynamics.
 ### Graphics
 
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile). ![JavaScript](logo/JavaScript.svg)
+- [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev) - Fluid simulation engine for computer graphics applications. ![C++](logo/cpp.svg) 
 
 ### Other Techniques
 
