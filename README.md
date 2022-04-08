@@ -129,6 +129,7 @@ A curated list of repositories related to fluid dynamics.
 - [jostbr/shallow-water](https://github.com/jostbr/shallow-water) - Python model solving the shallow water equations (linear momentum, nonlinear continuity). ![Python](logo/Python.svg)
 - [team-ocean/veros](https://github.com/team-ocean/veros) - The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
 - [CliMA/Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl) - Julia software for fast, friendly, flexible, data-driven, ocean-flavored fluid dynamics on CPUs and GPUs. ![julia](logo/julia.svg)
+- [OceanParcels/parcels](https://github.com/OceanParcels/parcels) - Parcels (Probably A Really Computationally Efficient Lagrangian Simulator) is a set of Python classes and methods to create customisable particle tracking simulations using output from Ocean Circulation models. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OceanParcels/parcels/search?l=jupyter-notebook)
 
 ### Lattice Boltzmann Methods (LBM)
 
