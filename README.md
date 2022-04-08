@@ -15,6 +15,7 @@ A curated list of repositories related to fluid dynamics.
   - [Books](#books)
 - [Meshing](#meshing)
 - [Computational Fluid Dynamics](#computational-fluid-dynamics)
+  - [Finite Difference Methods (FDM)](#finite-difference-methods-fdm)
   - [Finite Element Methods (FEM)](#finite-element-methods-fem)
   - [Finite Volume Methods (FVM)](#finite-volume-methods-fvm)
   - [Spectral Methods](#spectral-methods)
@@ -77,6 +78,10 @@ A curated list of repositories related to fluid dynamics.
 
 
 ## Computational Fluid Dynamics
+
+### Finite Difference Methods (FDM)
+
+- [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 
 ### Finite Element Methods (FEM)
 
