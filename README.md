@@ -139,7 +139,7 @@ A curated list of repositories related to fluid dynamics.
 ### Lattice Boltzmann Methods (LBM)
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann) - A 2D Lattice Boltzmann program. ![C++](logo/cpp.svg)
-- [lanl/MF-LBM](https://github.com/lanl/MF-LBM) - A Portable, Scalable and High-performance Lattice Boltzmann Code for DNS of Flow in Porous Media. ![FORTRAN](logo/FORTRAN.svg)  
+- [lanl/MF-LBM](https://github.com/lanl/MF-LBM) - A Portable, Scalable and High-performance Lattice Boltzmann Code for DNS of Flow in Porous Media. ![FORTRAN](logo/FORTRAN.svg)
 
 ### Design and Optimization
 
@@ -177,7 +177,7 @@ A curated list of repositories related to fluid dynamics.
 ### Graphics
 
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile). ![JavaScript](logo/JavaScript.svg)
-- [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev) - Fluid simulation engine for computer graphics applications. ![C++](logo/cpp.svg) 
+- [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev) - Fluid simulation engine for computer graphics applications. ![C++](logo/cpp.svg)
 
 ### Other Techniques
 
@@ -263,7 +263,7 @@ A curated list of repositories related to fluid dynamics.
 
 - [CFD Online Forum](https://www.cfd-online.com/Forums/) - A free community for everyone interested in Computational Fluid Dynamics.
 - [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*. ![r/CFD](https://img.shields.io/reddit/subreddit-subscribers/cfd?label=r%2FCFD&style=flat-square&labelColor=black)
-- [r/FluidMechanics](https://www.reddit.com/r/FluidMechanics/) - Reddit community on *Fluid Mechanics* ![r/FluidMechanics](https://img.shields.io/reddit/subreddit-subscribers/FluidMechanics?label=r%2FFluidMechanics&style=flat-square&labelColor=black)
+- [r/FluidMechanics](https://www.reddit.com/r/FluidMechanics/) - Reddit community on *Fluid Mechanics*. ![r/FluidMechanics](https://img.shields.io/reddit/subreddit-subscribers/FluidMechanics?label=r%2FFluidMechanics&style=flat-square&labelColor=black)
 
 ## Related Topics
 
