@@ -20,6 +20,7 @@ A curated list of repositories related to fluid dynamics.
   - [Books](#books)
 - [Meshing](#meshing)
 - [Computational Fluid Dynamics](#computational-fluid-dynamics)
+  - [Finite Difference Methods (FDM)](#finite-difference-methods-fdm)
   - [Finite Element Methods (FEM)](#finite-element-methods-fem)
   - [Finite Volume Methods (FVM)](#finite-volume-methods-fvm)
   - [Spectral Methods](#spectral-methods)
@@ -83,6 +84,10 @@ A curated list of repositories related to fluid dynamics.
 
 ## Computational Fluid Dynamics
 
+### Finite Difference Methods (FDM)
+
+- [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
+
 ### Finite Element Methods (FEM)
 
 - [JuliaFEM/JuliaFEM.jl](https://github.com/JuliaFEM/JuliaFEM.jl) - The JuliaFEM software library is a framework that allows for the distributed processing of large Finite Element Models across clusters of computers using simple programming models. ![julia](logo/julia.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/JuliaFEM/JuliaFEM.jl/search?l=jupyter-notebook)
@@ -90,6 +95,7 @@ A curated list of repositories related to fluid dynamics.
 - [deal.II](https://dealii.org/) - An open source finite element library. ![C++](logo/cpp.svg)
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) - Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM). ![Python](logo/Python.svg)
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) - Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
+- [FluidityProject/fluidity](https://github.com/FluidityProject/fluidity) - An open-source computational fluid dynamics code with adaptive unstructured mesh capabilities. ![FORTRAN](logo/FORTRAN.svg)
 
 ### Finite Volume Methods (FVM)
 
@@ -133,11 +139,12 @@ A curated list of repositories related to fluid dynamics.
 - [jostbr/shallow-water](https://github.com/jostbr/shallow-water) - Python model solving the shallow water equations (linear momentum, nonlinear continuity). ![Python](logo/Python.svg)
 - [team-ocean/veros](https://github.com/team-ocean/veros) - The versatile ocean simulator, in pure Python, powered by JAX. ![Python](logo/Python.svg)
 - [CliMA/Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl) - Julia software for fast, friendly, flexible, data-driven, ocean-flavored fluid dynamics on CPUs and GPUs. ![julia](logo/julia.svg)
+- [OceanParcels/parcels](https://github.com/OceanParcels/parcels) - Parcels (Probably A Really Computationally Efficient Lagrangian Simulator) is a set of Python classes and methods to create customisable particle tracking simulations using output from Ocean Circulation models. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OceanParcels/parcels/search?l=jupyter-notebook)
 
 ### Lattice Boltzmann Methods (LBM)
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann) - A 2D Lattice Boltzmann program. ![C++](logo/cpp.svg)
-- [lanl/MF-LBM](https://github.com/lanl/MF-LBM) - A Portable, Scalable and High-performance Lattice Boltzmann Code for DNS of Flow in Porous Media. ![FORTRAN](logo/FORTRAN.svg)  
+- [lanl/MF-LBM](https://github.com/lanl/MF-LBM) - A Portable, Scalable and High-performance Lattice Boltzmann Code for DNS of Flow in Porous Media. ![FORTRAN](logo/FORTRAN.svg)
 
 ### Design and Optimization
 
@@ -175,7 +182,7 @@ A curated list of repositories related to fluid dynamics.
 ### Graphics
 
 - [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) - Play with fluids in your browser (works even on mobile). ![JavaScript](logo/JavaScript.svg)
-- [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev) - Fluid simulation engine for computer graphics applications. ![C++](logo/cpp.svg) 
+- [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev) - Fluid simulation engine for computer graphics applications. ![C++](logo/cpp.svg)
 
 ### Other Techniques
 
@@ -260,8 +267,8 @@ A curated list of repositories related to fluid dynamics.
 ## Community
 
 - [CFD Online Forum](https://www.cfd-online.com/Forums/) - A free community for everyone interested in Computational Fluid Dynamics.
-- [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*.
-
+- [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*. ![r/CFD](https://img.shields.io/reddit/subreddit-subscribers/cfd?label=r%2FCFD&style=flat-square&labelColor=black)
+- [r/FluidMechanics](https://www.reddit.com/r/FluidMechanics/) - Reddit community on *Fluid Mechanics*. ![r/FluidMechanics](https://img.shields.io/reddit/subreddit-subscribers/FluidMechanics?label=r%2FFluidMechanics&style=flat-square&labelColor=black)
 
 ## Related Topics
 
