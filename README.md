@@ -197,7 +197,7 @@ A curated list of repositories related to fluid dynamics.
 - [OpenPTV/openptv](https://github.com/openptv/openptv) - OpenPTV - open source 3D-PTV software. ![C++](logo/cpp.svg)
 - [OpenPIV/openpiv-python](https://github.com/openpiv/openpiv-python) - OpenPIV consists in a Python and Cython modules for scripting and executing the analysis of a set of PIV image pairs. ![Python](logo/Python.svg) ![MATLAB](logo/MATLAB.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/OpenPIV/openpiv-python/search?l=jupyter-notebook)
 - [OpenPTV/pyptv](https://github.com/openptv/pyptv) - Python GUI for OpenPTV - open source three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
-- [MyPTV](https://github.com/ronshnapp/myptv) - Python based 3D-PTV - open source pure Python three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
+- [ronshnapp/MyPTV](https://github.com/ronshnapp/myptv) - Python based 3D-PTV - open source pure Python three-dimensional particle tracking velocimetry. ![Python](logo/Python.svg)
 
 ### ML / Optical Flow
 
