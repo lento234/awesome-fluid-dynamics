@@ -82,6 +82,7 @@ A curated list of repositories related to fluid dynamics.
 
 ### Finite Difference Methods (FDM)
 
+- [p-costa/CaNS](https://github.com/p-costa/CaNS) - A code for fast, massively-parallel direct numerical simulations (DNS) of canonical flows. ![FORTRAN](logo/FORTRAN.svg)
 - [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 
 ### Finite Element Methods (FEM)
