@@ -83,7 +83,6 @@ A curated list of repositories related to fluid dynamics.
 ### Finite Difference Methods (FDM)
 
 - [p-costa/CaNS](https://github.com/p-costa/CaNS) - A code for fast, massively-parallel direct numerical simulations (DNS) of canonical flows. ![FORTRAN](logo/FORTRAN.svg)
-- [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 
 ### Finite Element Methods (FEM)
 
@@ -102,7 +101,7 @@ A curated list of repositories related to fluid dynamics.
 - [code-saturne/code_saturne](https://github.com/code-saturne/code_saturne) - code_saturne public mirror. ![C++](logo/cpp.svg) ![FORTRAN](logo/FORTRAN.svg) ![Python](logo/Python.svg)
 - [DelNov/T-Flows](https://github.com/DelNov/T-Flows) - T-Flows (stands for Turbulent Flows) is a Computational Fluid Dynamics (CFD) program, originally developed at Delft University of Technology, the Netherlands. ![FORTRAN](logo/FORTRAN.svg)
 - [ucns3d-team/UCNS3D](https://github.com/ucns3d-team/UCNS3D) - Unstructured Compressible Navier Stokes 3D code (UCNS3D). ![FORTRAN](logo/FORTRAN.svg)
-
+- [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 ### Spectral Methods
 
 - [DedalusProject/dedalus](https://github.com/DedalusProject/dedalus) - A flexible framework for solving PDEs with modern spectral methods. ![Python](logo/Python.svg) [![Jupyter](logo/Jupyter.svg)](https://github.com/DedalusProject/dedalus/search?l=jupyter-notebook)
