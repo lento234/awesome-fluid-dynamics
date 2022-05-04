@@ -119,6 +119,7 @@ A curated list of repositories related to fluid dynamics.
 - [gdeskos/DVMpp](https://github.com/gdeskos/DVMpp) - 2D Discrete Vortex Method Code written in C++. ![C++](logo/cpp.svg)
 - [byuflowlab/FLOWUnsteady](https://github.com/byuflowlab/FLOWUnsteady) - Mixed-fidelity unsteady aerodynamics and aeroacoustics. ![julia](logo/julia.svg)
 - [Applied-Scientific-Research/Omega2D](https://github.com/Applied-Scientific-Research/Omega2D) - Two-dimensional flow solver with GUI using vortex particle and boundary element methods. ![C++](logo/cpp.svg)
+- [camUrban/PteraSoftware](https://github.com/camUrban/PteraSoftware) - A fast, easy-to-use, and open-source software package for analyzing flapping-wing flight. ![Python](logo/Python.svg)
 
 ### Immersed Boundary Methods (IBM)
 
