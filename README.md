@@ -92,6 +92,7 @@ A curated list of repositories related to fluid dynamics.
 - [firedrakeproject/firedrake](https://github.com/firedrakeproject/firedrake) - Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM). ![Python](logo/Python.svg)
 - [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) - Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. ![C++](logo/cpp.svg) ![Python](logo/Python.svg)
 - [FluidityProject/fluidity](https://github.com/FluidityProject/fluidity) - An open-source computational fluid dynamics code with adaptive unstructured mesh capabilities. ![FORTRAN](logo/FORTRAN.svg)
+- [kinnala/scikit-fem](https://github.com/kinnala/scikit-fem) - Simple finite element assemblers. ![Python](logo/Python.svg)
 
 ### Finite Volume Methods (FVM)
 
