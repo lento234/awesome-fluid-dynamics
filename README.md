@@ -250,6 +250,7 @@ A curated list of repositories related to fluid dynamics.
 - [Kitware/Vtk](https://gitlab.kitware.com/vtk/vtk) - Visualization Toolkit. ![C++](logo/cpp.svg)
 - [Kitware/paraview](https://www.paraview.org/) - An open-source, multi-platform data analysis and visualization application. ![Python](logo/Python.svg)
 - [pyvista/pyvista](https://github.com/pyvista/pyvista) - 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK). ![Python](logo/Python.svg)
+- [blender/blender](https://github.com/blender/blender) - A free and open source 3D creation suite, supporting the entirety of the 3D pipeline-modeling, rigging, animation, simulation, rendering, compositing, motion tracking and video editing. ![Python](logo/Python.svg)
 
 
 ## Benchmarks and Datasets
