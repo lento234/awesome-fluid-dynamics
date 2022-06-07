@@ -133,6 +133,7 @@ A curated list of repositories related to fluid dynamics.
 - [barbagroup/PetIBM](https://github.com/barbagroup/PetIBM) - PetIBM - toolbox and applications of the immersed-boundary method on distributed-memory architectures. ![C++](logo/cpp.svg)
 - [barbagroup/cuIBM](https://github.com/barbagroup/cuIBM) - cuIBM: a GPU-based immersed boundary method code. ![C++](logo/cpp.svg)
 - [ChenguangZhang/sdfibm](https://github.com/ChenguangZhang/sdfibm) - Immersed boundary method empowered by signed distance field, and OpenFOAM. ![C++](logo/cpp.svg)
+- [IBAMR/IBAMR](https://github.com/IBAMR/IBAMR) - An adaptive and distributed-memory parallel implementation of the immersed boundary (IB) method. ![C++](logo/cpp.svg)
 
 ### Building Energy and Urban Environments
 
