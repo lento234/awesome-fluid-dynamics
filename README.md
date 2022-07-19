@@ -63,7 +63,7 @@ A curated list of repositories related to fluid dynamics.
 - [The Bright Side of Mathematics/Functional analysis](https://youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr) - Lecture series on *Functional analysis*. ![YouTube](logo/YouTube.svg)
 - [MIT OpenCourseWare/MIT RES.6-012 Introduction to Probability, Spring 2018](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6) - Lecture recording of *Probabilistic Systems Analysis and Applied Probability*. ![YouTube](logo/YouTube.svg)
 - [József Nagy/CFD basics](https://youtube.com/playlist?list=PLcOe4WUSsMkH6DLHpsYyveaqjKxnEnQqB) - CFD basics and introduction to OpenFOAM. ![YouTube](logo/YouTube.svg)
-- [rmcelreath/stat_rethinking_2022](https://github.com/rmcelreath/stat_rethinking_2022) - Statistical Rethinking (2022 Edition) by Richard McElreath. [![YouTube](logo/YouTube.svg)](https://youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)
+- [rmcelreath/stat_rethinking_2022](https://youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN) - Statistical Rethinking (2022 Edition) by Richard McElreath. ![YouTube](logo/YouTube.svg) [![src](logo/src.svg)](https://github.com/rmcelreath/stat_rethinking_2022)
 
 ### Books
 
