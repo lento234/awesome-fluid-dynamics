@@ -21,6 +21,7 @@ A curated list of repositories related to fluid dynamics.
   - [Spectral Methods](#spectral-methods)
   - [Vortex Methods / Panel Methods / Blade Element Methods](#vortex-methods--panel-methods--blade-element-methods)
   - [Immersed Boundary Methods (IBM)](#immersed-boundary-methods-ibm)
+  - [Weather and Climate](#weather-and-climate)
   - [Building Energy and Urban Environments](#building-energy-and-urban-environments)
   - [Shallow Water / Ocean Dynamics](#shallow-water--ocean-dynamics)
   - [Lattice Boltzmann Methods (LBM)](#lattice-boltzmann-methods-lbm)
@@ -135,6 +136,10 @@ A curated list of repositories related to fluid dynamics.
 - [barbagroup/cuIBM](https://github.com/barbagroup/cuIBM) - cuIBM: a GPU-based immersed boundary method code. ![C++](logo/cpp.svg)
 - [ChenguangZhang/sdfibm](https://github.com/ChenguangZhang/sdfibm) - Immersed boundary method empowered by signed distance field, and OpenFOAM. ![C++](logo/cpp.svg)
 - [IBAMR/IBAMR](https://github.com/IBAMR/IBAMR) - An adaptive and distributed-memory parallel implementation of the immersed boundary (IB) method. ![C++](logo/cpp.svg)
+
+### Weather and Climate
+
+- [wrf-model/WRF](https://github.com/wrf-model/WRF) -  Weather Research and Forecasting (WRF) model is a numerical weather prediction (NWP) system designed to serve both atmospheric research and operational forecasting needs. ![FORTRAN](logo/FORTRAN.svg)
 
 ### Building Energy and Urban Environments
 
