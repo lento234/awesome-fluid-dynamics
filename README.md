@@ -158,6 +158,8 @@ A curated list of repositories related to fluid dynamics.
 
 - [aromanro/LatticeBoltzmann](https://github.com/aromanro/LatticeBoltzmann) - A 2D Lattice Boltzmann program. ![C++](logo/cpp.svg)
 - [lanl/MF-LBM](https://github.com/lanl/MF-LBM) - A Portable, Scalable and High-performance Lattice Boltzmann Code for DNS of Flow in Porous Media. ![FORTRAN](logo/FORTRAN.svg)
+- [unigespc/palabos](https://gitlab.com/unigespc/palabos) - Palabos is an open-source CFD solver based on the lattice Boltzmann method. ![C++](logo/cpp.svg)
+
 
 ### Design and Optimization
 
