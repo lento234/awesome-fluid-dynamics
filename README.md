@@ -112,6 +112,7 @@ A curated list of repositories related to fluid dynamics.
 - [ucns3d-team/UCNS3D](https://github.com/ucns3d-team/UCNS3D) - Unstructured Compressible Navier Stokes 3D code (UCNS3D). ![FORTRAN](logo/FORTRAN.svg)
 - [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 - [MFlowCode/MFC](https://github.com/mflowcode/MFC) - MFC is a compressible multiphase fluid solver with high-order-accurate shock- and interface-capturing and GPU support via OpenACC. ![FORTRAN](logo/FORTRAN.svg)
+- [nextfoam/Baram](https://github.com/nextfoam/baram) - BARAM is developed to mitigate the steep learning curve of Text-based Solvers. BARAM helps you focus on a problem itself with intuitive graphical user interface. For now, OpenFOAM® solvers modified by nextfoam are integrated into BARAM. ![Python](logo/Python.svg)
 
 ### Spectral Methods
 
