@@ -285,8 +285,6 @@ A curated list of repositories related to fluid dynamics.
 ## Community
 
 - [CFD Online Forum](https://www.cfd-online.com/Forums/) - A free community for everyone interested in Computational Fluid Dynamics.
-- [r/CFD](https://www.reddit.com/r/CFD/) - Reddit community on *Computational Fluid Dynamics*. ![r/CFD](https://img.shields.io/reddit/subreddit-subscribers/cfd?label=r%2FCFD&style=flat-square&labelColor=black)
-- [r/FluidMechanics](https://www.reddit.com/r/FluidMechanics/) - Reddit community on *Fluid Mechanics*. ![r/FluidMechanics](https://img.shields.io/reddit/subreddit-subscribers/FluidMechanics?label=r%2FFluidMechanics&style=flat-square&labelColor=black)
 
 ## Related Topics
 
