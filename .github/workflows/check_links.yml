@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.2
+          ruby-version: '3.3'
       - name: Install Awesome Bot
         run: gem install awesome_bot
       - name: Run Awesome Bot
         run: awesome_bot README.md --allow-redirect --allow-timeout -t 5 --request-delay 0.5 --allow-dupe
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: ab-results
