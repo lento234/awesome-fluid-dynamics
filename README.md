@@ -113,6 +113,7 @@ A curated list of repositories related to fluid dynamics.
 - [weymouth/WaterLily.jl](https://github.com/weymouth/WaterLily.jl) -  Fast and simple fluid simulator in Julia. ![julia](logo/julia.svg)
 - [MFlowCode/MFC](https://github.com/MFlowCode/MFC) - Exascale compressible multiphase flow solver with GPU acceleration (NVIDIA and AMD); 2025 Gordon Bell Prize Finalist. ![FORTRAN](logo/FORTRAN.svg)
 - [nextfoam/Baram](https://github.com/nextfoam/baram) - BARAM is developed to mitigate the steep learning curve of Text-based Solvers. BARAM helps you focus on a problem itself with intuitive graphical user interface. For now, OpenFOAM® solvers modified by nextfoam are integrated into BARAM. ![Python](logo/Python.svg)
+- [OpenFLUME/OpenFLUME](https://github.com/OpenFLUME/OpenFLUME) - Finite-volume thermo-fluid network solver (GFSSP / SINDA-FLUINT class) with steady and transient solvers, real fluids via CoolProp, two-phase flow, and conjugate heat transfer, verified against NASA benchmarks. Usable from a no-install browser UI, as a TypeScript library, or as a Python package (`pip install openflume`). ![JavaScript](logo/JavaScript.svg) ![Python](logo/Python.svg)
 
 ### Spectral Methods
 
